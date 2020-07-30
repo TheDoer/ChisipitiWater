@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10FBA82C130817A57A1F9E50 /* Pods_Chisipiti_Water.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFB6118F30B0DF312D6CBA7 /* Pods_Chisipiti_Water.framework */; };
+		F1117CE524CEB64F00CACA92 /* SetUpAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1117CE424CEB64F00CACA92 /* SetUpAccountViewController.swift */; };
+		F1263D2224C9AD4700133C78 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1263D2124C9AD4700133C78 /* OrderViewController.swift */; };
+		F1263D2524C9C11A00133C78 /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1263D2424C9C11A00133C78 /* Extras.swift */; };
+		F173BA9D24CF14F200E8129A /* ConfirmDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173BA9C24CF14F200E8129A /* ConfirmDetailsViewController.swift */; };
+		F173BA9F24D03A7900E8129A /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173BA9E24D03A7900E8129A /* UserDetails.swift */; };
+		F173BAA124D03F1900E8129A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173BAA024D03F1900E8129A /* Product.swift */; };
+		F17956BB24C0DE2800213FE5 /* MakeOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956BA24C0DE2800213FE5 /* MakeOrderViewController.swift */; };
+		F17956E524C0F1C100213FE5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956E424C0F1C100213FE5 /* Utils.swift */; };
+		F1ABA4A624C449560008343E /* MakeOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABA4A524C449560008343E /* MakeOrder.swift */; };
+		F1ABA4A824C44FD10008343E /* OTPVerify.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABA4A724C44FD10008343E /* OTPVerify.swift */; };
 		F1FF1E9E24BA700900D3F451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF1E9D24BA700900D3F451 /* AppDelegate.swift */; };
 		F1FF1EA024BA700900D3F451 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF1E9F24BA700900D3F451 /* SceneDelegate.swift */; };
-		F1FF1EA224BA700900D3F451 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF1EA124BA700900D3F451 /* ViewController.swift */; };
 		F1FF1EA524BA700900D3F451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FF1EA324BA700900D3F451 /* Main.storyboard */; };
 		F1FF1EA724BA700C00D3F451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FF1EA624BA700C00D3F451 /* Assets.xcassets */; };
 		F1FF1EAA24BA700C00D3F451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FF1EA824BA700C00D3F451 /* LaunchScreen.storyboard */; };
+		F1FF1EB324BA70C600D3F451 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF1EB224BA70C600D3F451 /* LoginViewController.swift */; };
+		F1FF1EB524BA70DB00D3F451 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF1EB424BA70DB00D3F451 /* SignUpViewController.swift */; };
+		F1FF1EB724BA70E900D3F451 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF1EB624BA70E900D3F451 /* OTPViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C3CE8CB1BFB01BAE515C734 /* Pods-Chisipiti Water.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chisipiti Water.debug.xcconfig"; path = "Target Support Files/Pods-Chisipiti Water/Pods-Chisipiti Water.debug.xcconfig"; sourceTree = "<group>"; };
+		63986EBC444476E365AEC655 /* Pods-Chisipiti Water.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chisipiti Water.release.xcconfig"; path = "Target Support Files/Pods-Chisipiti Water/Pods-Chisipiti Water.release.xcconfig"; sourceTree = "<group>"; };
+		CDFB6118F30B0DF312D6CBA7 /* Pods_Chisipiti_Water.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chisipiti_Water.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1117CE424CEB64F00CACA92 /* SetUpAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpAccountViewController.swift; sourceTree = "<group>"; };
+		F1263D2124C9AD4700133C78 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		F1263D2424C9C11A00133C78 /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
+		F173BA9C24CF14F200E8129A /* ConfirmDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDetailsViewController.swift; sourceTree = "<group>"; };
+		F173BA9E24D03A7900E8129A /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		F173BAA024D03F1900E8129A /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F17956BA24C0DE2800213FE5 /* MakeOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOrderViewController.swift; sourceTree = "<group>"; };
+		F17956E424C0F1C100213FE5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		F1ABA4A524C449560008343E /* MakeOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOrder.swift; sourceTree = "<group>"; };
+		F1ABA4A724C44FD10008343E /* OTPVerify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerify.swift; sourceTree = "<group>"; };
 		F1FF1E9A24BA700900D3F451 /* Chisipiti Water.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chisipiti Water.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FF1E9D24BA700900D3F451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1FF1E9F24BA700900D3F451 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F1FF1EA124BA700900D3F451 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1FF1EA424BA700900D3F451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1FF1EA624BA700C00D3F451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1FF1EA924BA700C00D3F451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1FF1EAB24BA700C00D3F451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1FF1EB224BA70C600D3F451 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F1FF1EB424BA70DB00D3F451 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F1FF1EB624BA70E900D3F451 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10FBA82C130817A57A1F9E50 /* Pods_Chisipiti_Water.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E0B628D0AE49C70473A4811 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C3CE8CB1BFB01BAE515C734 /* Pods-Chisipiti Water.debug.xcconfig */,
+				63986EBC444476E365AEC655 /* Pods-Chisipiti Water.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1F9A7FFCD40E6C37DFEC269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDFB6118F30B0DF312D6CBA7 /* Pods_Chisipiti_Water.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1263D2324C9C10600133C78 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				F1263D2424C9C11A00133C78 /* Extras.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		F17956BC24C0DE3500213FE5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F1FF1EA324BA700900D3F451 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F17956E224C0F1A800213FE5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F17956E424C0F1C100213FE5 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F17956E324C0F1B100213FE5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F1ABA4A424C449270008343E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1ABA4A524C449560008343E /* MakeOrder.swift */,
+				F1ABA4A724C44FD10008343E /* OTPVerify.swift */,
+				F173BA9E24D03A7900E8129A /* UserDetails.swift */,
+				F173BAA024D03F1900E8129A /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F1FF1E9124BA700900D3F451 = {
 			isa = PBXGroup;
 			children = (
 				F1FF1E9C24BA700900D3F451 /* Chisipiti Water */,
 				F1FF1E9B24BA700900D3F451 /* Products */,
+				9E0B628D0AE49C70473A4811 /* Pods */,
+				D1F9A7FFCD40E6C37DFEC269 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +146,33 @@
 		F1FF1E9C24BA700900D3F451 /* Chisipiti Water */ = {
 			isa = PBXGroup;
 			children = (
+				F1263D2324C9C10600133C78 /* Extras */,
+				F1ABA4A424C449270008343E /* Model */,
+				F17956E324C0F1B100213FE5 /* Extensions */,
+				F17956E224C0F1A800213FE5 /* Utils */,
+				F17956BC24C0DE3500213FE5 /* Storyboards */,
+				F1FF1EB124BA702D00D3F451 /* ViewControllers */,
 				F1FF1E9D24BA700900D3F451 /* AppDelegate.swift */,
 				F1FF1E9F24BA700900D3F451 /* SceneDelegate.swift */,
-				F1FF1EA124BA700900D3F451 /* ViewController.swift */,
-				F1FF1EA324BA700900D3F451 /* Main.storyboard */,
 				F1FF1EA624BA700C00D3F451 /* Assets.xcassets */,
 				F1FF1EA824BA700C00D3F451 /* LaunchScreen.storyboard */,
 				F1FF1EAB24BA700C00D3F451 /* Info.plist */,
 			);
 			path = "Chisipiti Water";
+			sourceTree = "<group>";
+		};
+		F1FF1EB124BA702D00D3F451 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1FF1EB224BA70C600D3F451 /* LoginViewController.swift */,
+				F1FF1EB424BA70DB00D3F451 /* SignUpViewController.swift */,
+				F1FF1EB624BA70E900D3F451 /* OTPViewController.swift */,
+				F17956BA24C0DE2800213FE5 /* MakeOrderViewController.swift */,
+				F1263D2124C9AD4700133C78 /* OrderViewController.swift */,
+				F1117CE424CEB64F00CACA92 /* SetUpAccountViewController.swift */,
+				F173BA9C24CF14F200E8129A /* ConfirmDetailsViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1FF1EAE24BA700C00D3F451 /* Build configuration list for PBXNativeTarget "Chisipiti Water" */;
 			buildPhases = (
+				849687EEB95B439522A128F9 /* [CP] Check Pods Manifest.lock */,
 				F1FF1E9624BA700900D3F451 /* Sources */,
 				F1FF1E9724BA700900D3F451 /* Frameworks */,
 				F1FF1E9824BA700900D3F451 /* Resources */,
+				4A894417E46AE68BA1A5CA59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +243,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A894417E46AE68BA1A5CA59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chisipiti Water/Pods-Chisipiti Water-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chisipiti Water/Pods-Chisipiti Water-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chisipiti Water/Pods-Chisipiti Water-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		849687EEB95B439522A128F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chisipiti Water-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F1FF1E9624BA700900D3F451 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1FF1EA224BA700900D3F451 /* ViewController.swift in Sources */,
+				F1FF1EB724BA70E900D3F451 /* OTPViewController.swift in Sources */,
+				F1263D2224C9AD4700133C78 /* OrderViewController.swift in Sources */,
+				F173BAA124D03F1900E8129A /* Product.swift in Sources */,
+				F1FF1EB324BA70C600D3F451 /* LoginViewController.swift in Sources */,
 				F1FF1E9E24BA700900D3F451 /* AppDelegate.swift in Sources */,
+				F17956BB24C0DE2800213FE5 /* MakeOrderViewController.swift in Sources */,
+				F1263D2524C9C11A00133C78 /* Extras.swift in Sources */,
+				F1ABA4A624C449560008343E /* MakeOrder.swift in Sources */,
+				F173BA9D24CF14F200E8129A /* ConfirmDetailsViewController.swift in Sources */,
 				F1FF1EA024BA700900D3F451 /* SceneDelegate.swift in Sources */,
+				F1117CE524CEB64F00CACA92 /* SetUpAccountViewController.swift in Sources */,
+				F1ABA4A824C44FD10008343E /* OTPVerify.swift in Sources */,
+				F173BA9F24D03A7900E8129A /* UserDetails.swift in Sources */,
+				F1FF1EB524BA70DB00D3F451 /* SignUpViewController.swift in Sources */,
+				F17956E524C0F1C100213FE5 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +446,11 @@
 		};
 		F1FF1EAF24BA700C00D3F451 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3CE8CB1BFB01BAE515C734 /* Pods-Chisipiti Water.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4Z6ZC6JCHL;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Chisipiti Water/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,10 +465,11 @@
 		};
 		F1FF1EB024BA700C00D3F451 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63986EBC444476E365AEC655 /* Pods-Chisipiti Water.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4Z6ZC6JCHL;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Chisipiti Water/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

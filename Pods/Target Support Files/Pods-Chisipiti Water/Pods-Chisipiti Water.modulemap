@@ -1,0 +1,6 @@
+framework module Pods_Chisipiti_Water {
+  umbrella header "Pods-Chisipiti Water-umbrella.h"
+
+  export *
+  module * { export * }
+}
