@@ -148,6 +148,7 @@
                     <connections>
                         <outlet property="PINTxt" destination="ZQu-3V-U0K" id="Ej9-DD-9tg"/>
                         <outlet property="phoneNumberTxt" destination="IMp-8W-Nii" id="pkv-b4-rH1"/>
+                        <segue destination="0Tb-Qy-zec" kind="show" identifier="toMakeOrderView" id="dtW-DC-OkE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tic-d1-mBB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -311,13 +312,13 @@
         <!--Order-->
         <scene sceneID="MHK-IC-JKd">
             <objects>
-                <viewController storyboardIdentifier="MakeOrderViewController" id="0Tb-Qy-zec" customClass="MakeOrderViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MakeOrderViewController" modalPresentationStyle="fullScreen" id="0Tb-Qy-zec" customClass="MakeOrderViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6rF-W9-hKZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="155-Is-hpI">
-                                <rect key="frame" x="20" y="579" width="335" height="50"/>
+                                <rect key="frame" x="20" y="628" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.077041961249999999" green="0.45249569420000002" blue="0.54903507230000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="JxT-Yw-3zT"/>
@@ -333,7 +334,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="hUJ-CV-kPX">
-                                <rect key="frame" x="20" y="275.66666666666669" width="335" height="85"/>
+                                <rect key="frame" x="20" y="324.66666666666669" width="335" height="85"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AC6-mz-39E">
                                         <rect key="frame" x="0.0" y="0.0" width="45" height="85"/>
@@ -369,7 +370,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="PA8-Uf-HAd">
-                                <rect key="frame" x="20" y="400.66666666666669" width="335" height="78.333333333333314"/>
+                                <rect key="frame" x="20" y="449.66666666666669" width="335" height="78.333333333333314"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thousand Litres" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IqZ-8O-e6e">
                                         <rect key="frame" x="58.333333333333329" y="0.0" width="218.66666666666669" height="36"/>
@@ -397,7 +398,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOW MUCH WATER DO YOU WANT DELIVERED?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agz-VB-PBK">
-                                <rect key="frame" x="20" y="102" width="335" height="48"/>
+                                <rect key="frame" x="20" y="151" width="335" height="48"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -429,7 +430,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WyB-tr-Nov" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2303" y="1741"/>
+            <point key="canvasLocation" x="-2694" y="1339"/>
         </scene>
         <!--History-->
         <scene sceneID="ycp-sW-wER">
@@ -445,7 +446,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6w0-Yx-Vfi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="674" y="1741"/>
+            <point key="canvasLocation" x="1415" y="1339"/>
         </scene>
         <!--Track Order-->
         <scene sceneID="BB8-42-fsp">
@@ -461,7 +462,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6F9-kI-0FW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2121" y="1741"/>
+            <point key="canvasLocation" x="1338" y="598"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uFf-f5-eAf">
@@ -492,12 +493,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ba-tp-KFq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-834" y="1741"/>
+            <point key="canvasLocation" x="-1351" y="1433"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="DWj-do-FTu">
             <objects>
-                <tabBarController id="248-bW-f19" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarViewController" id="248-bW-f19" customClass="TabBarViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="XYf-M5-wjJ"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KBl-Tw-Xmr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -824,6 +825,9 @@
             <point key="canvasLocation" x="2738" y="-338"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="dtW-DC-OkE"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="73" height="78"/>
     </resources>

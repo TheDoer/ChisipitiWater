@@ -108,22 +108,13 @@ class LoginViewController: UIViewController {
                         self.loginStatus = UserDetailsItems.login_status
                         
                         print("Login Status: \(self.loginStatus )")
-                        
-                        
-                        
+                    
                         
                         if self.loginStatus == "success" {
                             
-                            let mainstoryboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-                            let newViewController = mainstoryboard.instantiateViewController(identifier: "") as! UITabBarController
+                            self.performSegue(withIdentifier: "toMakeOrderView", sender: self)
                             
-                            
-                            
-                            
-                            
-                           
-                            
-                            
+                        
                         }
                         
                         
@@ -149,6 +140,8 @@ class LoginViewController: UIViewController {
        
         
     }
+    
+    
     
     
     func setBackground() {
