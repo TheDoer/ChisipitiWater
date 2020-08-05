@@ -15,7 +15,7 @@
      private var _name: String!
      private var _mobile_number: String!
      private var _physical_address: String!
-    private var _login_status: String!
+     private var _login_status: String!
      
      
     

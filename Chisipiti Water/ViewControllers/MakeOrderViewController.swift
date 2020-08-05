@@ -62,8 +62,8 @@ class MakeOrderViewController: UIViewController {
     
     @IBAction func placeOrderBtn(_ sender: Any) {
         
-        MakeOrderCallingAPI()
         
+        MakeOrderCallingAPI()
     }
     
 
@@ -71,19 +71,8 @@ class MakeOrderViewController: UIViewController {
         
         // PerfomaSegue to Confirm Details
     
-          
-          do {
-              self.reachability = try Reachability.init()
-          }catch {
-              print("Unable to start notifier")
-          }
-          
-          if((reachability!.connection) != .unavailable){
-              
-              MBProgressHUD.showAdded(to: self.view, animated: true)
-            
-              let makeOrder_endpoint = "http://tegloma.com/chisipiti_app/orders.php?mobileno=263774731945&units=7000&confirm_order=1"
-          }
+           performSegue(withIdentifier: "toConfirmOrder", sender: self)
+        
           
       }
     

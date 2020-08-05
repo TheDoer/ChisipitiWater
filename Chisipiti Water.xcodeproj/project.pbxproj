@@ -16,9 +16,13 @@
 		F173BAA124D03F1900E8129A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173BAA024D03F1900E8129A /* Product.swift */; };
 		F17956BB24C0DE2800213FE5 /* MakeOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956BA24C0DE2800213FE5 /* MakeOrderViewController.swift */; };
 		F17956E524C0F1C100213FE5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956E424C0F1C100213FE5 /* Utils.swift */; };
+		F19F5BDE24D97A5C00A8DC71 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F5BDD24D97A5C00A8DC71 /* HistoryViewController.swift */; };
+		F19F5BE024D9DEBC00A8DC71 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F5BDF24D9DEBC00A8DC71 /* History.swift */; };
+		F19F5BE224D9E55500A8DC71 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F5BE124D9E55500A8DC71 /* HistoryTableViewCell.swift */; };
 		F1ABA4A624C449560008343E /* MakeOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABA4A524C449560008343E /* MakeOrder.swift */; };
 		F1ABA4A824C44FD10008343E /* OTPVerify.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABA4A724C44FD10008343E /* OTPVerify.swift */; };
 		F1F1915024D2DC6E009954D8 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F1914F24D2DC6E009954D8 /* TabBarViewController.swift */; };
+		F1F1915224D31BED009954D8 /* ConfirmOrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F1915124D31BED009954D8 /* ConfirmOrderDetailsViewController.swift */; };
 		F1FF1E9E24BA700900D3F451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF1E9D24BA700900D3F451 /* AppDelegate.swift */; };
 		F1FF1EA024BA700900D3F451 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF1E9F24BA700900D3F451 /* SceneDelegate.swift */; };
 		F1FF1EA524BA700900D3F451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FF1EA324BA700900D3F451 /* Main.storyboard */; };
@@ -41,9 +45,13 @@
 		F173BAA024D03F1900E8129A /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		F17956BA24C0DE2800213FE5 /* MakeOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOrderViewController.swift; sourceTree = "<group>"; };
 		F17956E424C0F1C100213FE5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		F19F5BDD24D97A5C00A8DC71 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		F19F5BDF24D9DEBC00A8DC71 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		F19F5BE124D9E55500A8DC71 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
 		F1ABA4A524C449560008343E /* MakeOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOrder.swift; sourceTree = "<group>"; };
 		F1ABA4A724C44FD10008343E /* OTPVerify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerify.swift; sourceTree = "<group>"; };
 		F1F1914F24D2DC6E009954D8 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		F1F1915124D31BED009954D8 /* ConfirmOrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmOrderDetailsViewController.swift; sourceTree = "<group>"; };
 		F1FF1E9A24BA700900D3F451 /* Chisipiti Water.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chisipiti Water.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FF1E9D24BA700900D3F451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1FF1E9F24BA700900D3F451 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +131,7 @@
 				F1ABA4A724C44FD10008343E /* OTPVerify.swift */,
 				F173BA9E24D03A7900E8129A /* UserDetails.swift */,
 				F173BAA024D03F1900E8129A /* Product.swift */,
+				F19F5BDF24D9DEBC00A8DC71 /* History.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -159,6 +168,7 @@
 				F1FF1EA624BA700C00D3F451 /* Assets.xcassets */,
 				F1FF1EA824BA700C00D3F451 /* LaunchScreen.storyboard */,
 				F1FF1EAB24BA700C00D3F451 /* Info.plist */,
+				F19F5BE124D9E55500A8DC71 /* HistoryTableViewCell.swift */,
 			);
 			path = "Chisipiti Water";
 			sourceTree = "<group>";
@@ -170,10 +180,12 @@
 				F1FF1EB424BA70DB00D3F451 /* SignUpViewController.swift */,
 				F1FF1EB624BA70E900D3F451 /* OTPViewController.swift */,
 				F17956BA24C0DE2800213FE5 /* MakeOrderViewController.swift */,
+				F1F1915124D31BED009954D8 /* ConfirmOrderDetailsViewController.swift */,
 				F1263D2124C9AD4700133C78 /* OrderViewController.swift */,
 				F1117CE424CEB64F00CACA92 /* SetUpAccountViewController.swift */,
 				F173BA9C24CF14F200E8129A /* ConfirmDetailsViewController.swift */,
 				F1F1914F24D2DC6E009954D8 /* TabBarViewController.swift */,
+				F19F5BDD24D97A5C00A8DC71 /* HistoryViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -295,8 +307,10 @@
 			files = (
 				F1F1915024D2DC6E009954D8 /* TabBarViewController.swift in Sources */,
 				F1FF1EB724BA70E900D3F451 /* OTPViewController.swift in Sources */,
+				F19F5BE024D9DEBC00A8DC71 /* History.swift in Sources */,
 				F1263D2224C9AD4700133C78 /* OrderViewController.swift in Sources */,
 				F173BAA124D03F1900E8129A /* Product.swift in Sources */,
+				F1F1915224D31BED009954D8 /* ConfirmOrderDetailsViewController.swift in Sources */,
 				F1FF1EB324BA70C600D3F451 /* LoginViewController.swift in Sources */,
 				F1FF1E9E24BA700900D3F451 /* AppDelegate.swift in Sources */,
 				F17956BB24C0DE2800213FE5 /* MakeOrderViewController.swift in Sources */,
@@ -305,8 +319,10 @@
 				F173BA9D24CF14F200E8129A /* ConfirmDetailsViewController.swift in Sources */,
 				F1FF1EA024BA700900D3F451 /* SceneDelegate.swift in Sources */,
 				F1117CE524CEB64F00CACA92 /* SetUpAccountViewController.swift in Sources */,
+				F19F5BE224D9E55500A8DC71 /* HistoryTableViewCell.swift in Sources */,
 				F1ABA4A824C44FD10008343E /* OTPVerify.swift in Sources */,
 				F173BA9F24D03A7900E8129A /* UserDetails.swift in Sources */,
+				F19F5BDE24D97A5C00A8DC71 /* HistoryViewController.swift in Sources */,
 				F1FF1EB524BA70DB00D3F451 /* SignUpViewController.swift in Sources */,
 				F17956E524C0F1C100213FE5 /* Utils.swift in Sources */,
 			);

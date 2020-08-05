@@ -114,6 +114,10 @@ class LoginViewController: UIViewController {
                             
                             self.performSegue(withIdentifier: "toMakeOrderView", sender: self)
                             
+                            
+//                            let profileViewController = newViewController.viewControllers?[0] as! ProfileViewController
+//                            profileViewController.Token = self.accessToken!
+                            
                         
                         }
                         
@@ -169,6 +173,8 @@ class LoginViewController: UIViewController {
         view.sendSubviewToBack(backgroundImageViewOne)
         
     }
+    
+  
     
     
     
