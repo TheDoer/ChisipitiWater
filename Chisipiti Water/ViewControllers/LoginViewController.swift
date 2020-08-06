@@ -119,18 +119,39 @@ class LoginViewController: UIViewController {
 //                            profileViewController.Token = self.accessToken!
                             
                         
-                        }
-                        
-                        
-                        
-                      
+                        } else  {
+                            
+                            let alert = UIAlertController(title: "Error", message: "\(self.loginStatus)", preferredStyle: .alert)
+                                                   
+                             let closeAction = UIAlertAction(title: "Try Again", style: UIAlertAction.Style.default, handler: {action in
+                                                    
+                                                       //print("Invalid Credentials")
+                                })
+                                    alert.addAction(closeAction)
+                                    self.present(alert, animated: true, completion: nil)
+                                }
+                                                       
+                   
                     }
                     
                    
-                case .failure:
-                    break
+                case .failure( let error):
+                
+                 print(error)
+                 let alert = UIAlertController(title: "", message: "Cannot Connect to Server", preferredStyle: .alert)
+                            
+                            let closeAction = UIAlertAction(title: "Try Again", style: UIAlertAction.Style.cancel, handler: {action in
+                                print("Close")
+                                
+                            })
+                 
+                            alert.addAction(closeAction)
+                            self.present(alert, animated: true, completion: nil)
+                
+                MBProgressHUD.hide(for: self.view, animated: true)
                     
                 }
+                
                 
                 
                 
@@ -139,7 +160,9 @@ class LoginViewController: UIViewController {
             
         }
         
-         MBProgressHUD.hide(for: self.view, animated: true)
+        
+        
+         
         
        
         

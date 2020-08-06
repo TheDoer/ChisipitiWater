@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		10FBA82C130817A57A1F9E50 /* Pods_Chisipiti_Water.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFB6118F30B0DF312D6CBA7 /* Pods_Chisipiti_Water.framework */; };
+		F110A61824DB95EC0059C911 /* TrackOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F110A61724DB95EB0059C911 /* TrackOrder.swift */; };
 		F1117CE524CEB64F00CACA92 /* SetUpAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1117CE424CEB64F00CACA92 /* SetUpAccountViewController.swift */; };
 		F1263D2224C9AD4700133C78 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1263D2124C9AD4700133C78 /* OrderViewController.swift */; };
 		F1263D2524C9C11A00133C78 /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1263D2424C9C11A00133C78 /* Extras.swift */; };
@@ -37,6 +38,7 @@
 		3C3CE8CB1BFB01BAE515C734 /* Pods-Chisipiti Water.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chisipiti Water.debug.xcconfig"; path = "Target Support Files/Pods-Chisipiti Water/Pods-Chisipiti Water.debug.xcconfig"; sourceTree = "<group>"; };
 		63986EBC444476E365AEC655 /* Pods-Chisipiti Water.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chisipiti Water.release.xcconfig"; path = "Target Support Files/Pods-Chisipiti Water/Pods-Chisipiti Water.release.xcconfig"; sourceTree = "<group>"; };
 		CDFB6118F30B0DF312D6CBA7 /* Pods_Chisipiti_Water.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chisipiti_Water.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F110A61724DB95EB0059C911 /* TrackOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackOrder.swift; sourceTree = "<group>"; };
 		F1117CE424CEB64F00CACA92 /* SetUpAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpAccountViewController.swift; sourceTree = "<group>"; };
 		F1263D2124C9AD4700133C78 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		F1263D2424C9C11A00133C78 /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				F173BA9E24D03A7900E8129A /* UserDetails.swift */,
 				F173BAA024D03F1900E8129A /* Product.swift */,
 				F19F5BDF24D9DEBC00A8DC71 /* History.swift */,
+				F110A61724DB95EB0059C911 /* TrackOrder.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				F1263D2224C9AD4700133C78 /* OrderViewController.swift in Sources */,
 				F173BAA124D03F1900E8129A /* Product.swift in Sources */,
 				F1F1915224D31BED009954D8 /* ConfirmOrderDetailsViewController.swift in Sources */,
+				F110A61824DB95EC0059C911 /* TrackOrder.swift in Sources */,
 				F1FF1EB324BA70C600D3F451 /* LoginViewController.swift in Sources */,
 				F1FF1E9E24BA700900D3F451 /* AppDelegate.swift in Sources */,
 				F17956BB24C0DE2800213FE5 /* MakeOrderViewController.swift in Sources */,
