@@ -1,29 +1,23 @@
 //
-//  TabBarViewController.swift
+//  TrackViewController.swift
 //  Chisipiti Water
 //
-//  Created by Adonis Rumbwere on 30/7/2020.
+//  Created by Adonis Rumbwere on 6/8/2020.
 //  Copyright © 2020 LimitlessGroup. All rights reserved.
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
+import MBProgressHUD
+import Reachability
 
-class TabBarViewController: UITabBarController {
-    
-       var fullName:String = ""
-       var mobileNumber:String = ""
-       var address:String = ""
+class TrackViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        
-//         print(" TabBar Address = \(self.address)")
-//         print(" TabBar FullName = \(self.fullName)")
-        
-        
     }
     
 

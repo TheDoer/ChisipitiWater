@@ -9,19 +9,32 @@
 /* Begin PBXBuildFile section */
 		10FBA82C130817A57A1F9E50 /* Pods_Chisipiti_Water.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFB6118F30B0DF312D6CBA7 /* Pods_Chisipiti_Water.framework */; };
 		F110A61824DB95EC0059C911 /* TrackOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F110A61724DB95EB0059C911 /* TrackOrder.swift */; };
+		F110A61A24DBEAEF0059C911 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F110A61924DBEAEF0059C911 /* TrackViewController.swift */; };
+		F1117BC1255F4BE00001FEE7 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1117BC0255F4BDF0001FEE7 /* CustomView.swift */; };
+		F1117BC3255F4D1E0001FEE7 /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1117BC2255F4D1E0001FEE7 /* CustomButtons.swift */; };
 		F1117CE524CEB64F00CACA92 /* SetUpAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1117CE424CEB64F00CACA92 /* SetUpAccountViewController.swift */; };
 		F1263D2224C9AD4700133C78 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1263D2124C9AD4700133C78 /* OrderViewController.swift */; };
 		F1263D2524C9C11A00133C78 /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1263D2424C9C11A00133C78 /* Extras.swift */; };
+		F1366BED25647AC000A2C8B3 /* SettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1366BEC25647AC000A2C8B3 /* SettingsSection.swift */; };
+		F150980625654F1F00C656D6 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F150980525654F1F00C656D6 /* EditProfileViewController.swift */; };
+		F15098082565DF7000C656D6 /* CustomerSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15098072565DF7000C656D6 /* CustomerSupportViewController.swift */; };
+		F150980A2565DF8500C656D6 /* ReportCrashesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15098092565DF8500C656D6 /* ReportCrashesViewController.swift */; };
 		F173BA9D24CF14F200E8129A /* ConfirmDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173BA9C24CF14F200E8129A /* ConfirmDetailsViewController.swift */; };
-		F173BA9F24D03A7900E8129A /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173BA9E24D03A7900E8129A /* UserDetails.swift */; };
+		F173BA9F24D03A7900E8129A /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173BA9E24D03A7900E8129A /* UserLogin.swift */; };
 		F173BAA124D03F1900E8129A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F173BAA024D03F1900E8129A /* Product.swift */; };
 		F17956BB24C0DE2800213FE5 /* MakeOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956BA24C0DE2800213FE5 /* MakeOrderViewController.swift */; };
 		F17956E524C0F1C100213FE5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17956E424C0F1C100213FE5 /* Utils.swift */; };
 		F19F5BDE24D97A5C00A8DC71 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F5BDD24D97A5C00A8DC71 /* HistoryViewController.swift */; };
 		F19F5BE024D9DEBC00A8DC71 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F5BDF24D9DEBC00A8DC71 /* History.swift */; };
-		F19F5BE224D9E55500A8DC71 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F5BE124D9E55500A8DC71 /* HistoryTableViewCell.swift */; };
+		F1A53385255CAD4300D46140 /* RoundedButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A53384255CAD4300D46140 /* RoundedButtons.swift */; };
+		F1A53387255DE9EB00D46140 /* FinalOrderConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A53386255DE9EA00D46140 /* FinalOrderConfirmViewController.swift */; };
 		F1ABA4A624C449560008343E /* MakeOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABA4A524C449560008343E /* MakeOrder.swift */; };
 		F1ABA4A824C44FD10008343E /* OTPVerify.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ABA4A724C44FD10008343E /* OTPVerify.swift */; };
+		F1B44CC924E9553900B1C951 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B44CC824E9553900B1C951 /* UserDetails.swift */; };
+		F1D282792562A82A00DDEF81 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D282782562A82A00DDEF81 /* SettingsViewController.swift */; };
+		F1D2827C2562A97300DDEF81 /* UserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D2827B2562A97300DDEF81 /* UserInfoHeader.swift */; };
+		F1D2827E2562A9AC00DDEF81 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D2827D2562A9AC00DDEF81 /* SettingsTableViewCell.swift */; };
+		F1F092C725487287000AFD54 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F092C625487287000AFD54 /* HistoryTableViewCell.swift */; };
 		F1F1915024D2DC6E009954D8 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F1914F24D2DC6E009954D8 /* TabBarViewController.swift */; };
 		F1F1915224D31BED009954D8 /* ConfirmOrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F1915124D31BED009954D8 /* ConfirmOrderDetailsViewController.swift */; };
 		F1FF1E9E24BA700900D3F451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF1E9D24BA700900D3F451 /* AppDelegate.swift */; };
@@ -39,19 +52,32 @@
 		63986EBC444476E365AEC655 /* Pods-Chisipiti Water.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chisipiti Water.release.xcconfig"; path = "Target Support Files/Pods-Chisipiti Water/Pods-Chisipiti Water.release.xcconfig"; sourceTree = "<group>"; };
 		CDFB6118F30B0DF312D6CBA7 /* Pods_Chisipiti_Water.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chisipiti_Water.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F110A61724DB95EB0059C911 /* TrackOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackOrder.swift; sourceTree = "<group>"; };
+		F110A61924DBEAEF0059C911 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		F1117BC0255F4BDF0001FEE7 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		F1117BC2255F4D1E0001FEE7 /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
 		F1117CE424CEB64F00CACA92 /* SetUpAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpAccountViewController.swift; sourceTree = "<group>"; };
 		F1263D2124C9AD4700133C78 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		F1263D2424C9C11A00133C78 /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
+		F1366BEC25647AC000A2C8B3 /* SettingsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSection.swift; sourceTree = "<group>"; };
+		F150980525654F1F00C656D6 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		F15098072565DF7000C656D6 /* CustomerSupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerSupportViewController.swift; sourceTree = "<group>"; };
+		F15098092565DF8500C656D6 /* ReportCrashesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportCrashesViewController.swift; sourceTree = "<group>"; };
 		F173BA9C24CF14F200E8129A /* ConfirmDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDetailsViewController.swift; sourceTree = "<group>"; };
-		F173BA9E24D03A7900E8129A /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		F173BA9E24D03A7900E8129A /* UserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
 		F173BAA024D03F1900E8129A /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		F17956BA24C0DE2800213FE5 /* MakeOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOrderViewController.swift; sourceTree = "<group>"; };
 		F17956E424C0F1C100213FE5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		F19F5BDD24D97A5C00A8DC71 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		F19F5BDF24D9DEBC00A8DC71 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
-		F19F5BE124D9E55500A8DC71 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		F1A53384255CAD4300D46140 /* RoundedButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtons.swift; sourceTree = "<group>"; };
+		F1A53386255DE9EA00D46140 /* FinalOrderConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalOrderConfirmViewController.swift; sourceTree = "<group>"; };
 		F1ABA4A524C449560008343E /* MakeOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOrder.swift; sourceTree = "<group>"; };
 		F1ABA4A724C44FD10008343E /* OTPVerify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerify.swift; sourceTree = "<group>"; };
+		F1B44CC824E9553900B1C951 /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		F1D282782562A82A00DDEF81 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F1D2827B2562A97300DDEF81 /* UserInfoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoHeader.swift; sourceTree = "<group>"; };
+		F1D2827D2562A9AC00DDEF81 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		F1F092C625487287000AFD54 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
 		F1F1914F24D2DC6E009954D8 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		F1F1915124D31BED009954D8 /* ConfirmOrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmOrderDetailsViewController.swift; sourceTree = "<group>"; };
 		F1FF1E9A24BA700900D3F451 /* Chisipiti Water.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chisipiti Water.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				F1263D2424C9C11A00133C78 /* Extras.swift */,
+				F1A53384255CAD4300D46140 /* RoundedButtons.swift */,
 			);
 			path = Extras;
 			sourceTree = "<group>";
@@ -106,7 +133,6 @@
 		F17956BC24C0DE3500213FE5 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				F1FF1EA324BA700900D3F451 /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -122,6 +148,8 @@
 		F17956E324C0F1B100213FE5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F1117BC0255F4BDF0001FEE7 /* CustomView.swift */,
+				F1117BC2255F4D1E0001FEE7 /* CustomButtons.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -131,12 +159,24 @@
 			children = (
 				F1ABA4A524C449560008343E /* MakeOrder.swift */,
 				F1ABA4A724C44FD10008343E /* OTPVerify.swift */,
-				F173BA9E24D03A7900E8129A /* UserDetails.swift */,
+				F173BA9E24D03A7900E8129A /* UserLogin.swift */,
+				F1B44CC824E9553900B1C951 /* UserDetails.swift */,
 				F173BAA024D03F1900E8129A /* Product.swift */,
 				F19F5BDF24D9DEBC00A8DC71 /* History.swift */,
 				F110A61724DB95EB0059C911 /* TrackOrder.swift */,
+				F1366BEC25647AC000A2C8B3 /* SettingsSection.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F1D2827A2562A92B00DDEF81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1F092C625487287000AFD54 /* HistoryTableViewCell.swift */,
+				F1D2827B2562A97300DDEF81 /* UserInfoHeader.swift */,
+				F1D2827D2562A9AC00DDEF81 /* SettingsTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		F1FF1E9124BA700900D3F451 = {
@@ -160,6 +200,7 @@
 		F1FF1E9C24BA700900D3F451 /* Chisipiti Water */ = {
 			isa = PBXGroup;
 			children = (
+				F1D2827A2562A92B00DDEF81 /* View */,
 				F1263D2324C9C10600133C78 /* Extras */,
 				F1ABA4A424C449270008343E /* Model */,
 				F17956E324C0F1B100213FE5 /* Extensions */,
@@ -167,11 +208,11 @@
 				F17956BC24C0DE3500213FE5 /* Storyboards */,
 				F1FF1EB124BA702D00D3F451 /* ViewControllers */,
 				F1FF1E9D24BA700900D3F451 /* AppDelegate.swift */,
+				F1FF1EA324BA700900D3F451 /* Main.storyboard */,
 				F1FF1E9F24BA700900D3F451 /* SceneDelegate.swift */,
 				F1FF1EA624BA700C00D3F451 /* Assets.xcassets */,
 				F1FF1EA824BA700C00D3F451 /* LaunchScreen.storyboard */,
 				F1FF1EAB24BA700C00D3F451 /* Info.plist */,
-				F19F5BE124D9E55500A8DC71 /* HistoryTableViewCell.swift */,
 			);
 			path = "Chisipiti Water";
 			sourceTree = "<group>";
@@ -189,6 +230,12 @@
 				F173BA9C24CF14F200E8129A /* ConfirmDetailsViewController.swift */,
 				F1F1914F24D2DC6E009954D8 /* TabBarViewController.swift */,
 				F19F5BDD24D97A5C00A8DC71 /* HistoryViewController.swift */,
+				F110A61924DBEAEF0059C911 /* TrackViewController.swift */,
+				F1A53386255DE9EA00D46140 /* FinalOrderConfirmViewController.swift */,
+				F1D282782562A82A00DDEF81 /* SettingsViewController.swift */,
+				F150980525654F1F00C656D6 /* EditProfileViewController.swift */,
+				F15098072565DF7000C656D6 /* CustomerSupportViewController.swift */,
+				F15098092565DF8500C656D6 /* ReportCrashesViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -313,19 +360,32 @@
 				F19F5BE024D9DEBC00A8DC71 /* History.swift in Sources */,
 				F1263D2224C9AD4700133C78 /* OrderViewController.swift in Sources */,
 				F173BAA124D03F1900E8129A /* Product.swift in Sources */,
+				F1D2827C2562A97300DDEF81 /* UserInfoHeader.swift in Sources */,
 				F1F1915224D31BED009954D8 /* ConfirmOrderDetailsViewController.swift in Sources */,
 				F110A61824DB95EC0059C911 /* TrackOrder.swift in Sources */,
+				F1D2827E2562A9AC00DDEF81 /* SettingsTableViewCell.swift in Sources */,
+				F1117BC3255F4D1E0001FEE7 /* CustomButtons.swift in Sources */,
+				F1A53385255CAD4300D46140 /* RoundedButtons.swift in Sources */,
+				F1366BED25647AC000A2C8B3 /* SettingsSection.swift in Sources */,
+				F150980A2565DF8500C656D6 /* ReportCrashesViewController.swift in Sources */,
+				F15098082565DF7000C656D6 /* CustomerSupportViewController.swift in Sources */,
 				F1FF1EB324BA70C600D3F451 /* LoginViewController.swift in Sources */,
 				F1FF1E9E24BA700900D3F451 /* AppDelegate.swift in Sources */,
+				F1A53387255DE9EB00D46140 /* FinalOrderConfirmViewController.swift in Sources */,
 				F17956BB24C0DE2800213FE5 /* MakeOrderViewController.swift in Sources */,
+				F150980625654F1F00C656D6 /* EditProfileViewController.swift in Sources */,
 				F1263D2524C9C11A00133C78 /* Extras.swift in Sources */,
 				F1ABA4A624C449560008343E /* MakeOrder.swift in Sources */,
+				F1B44CC924E9553900B1C951 /* UserDetails.swift in Sources */,
 				F173BA9D24CF14F200E8129A /* ConfirmDetailsViewController.swift in Sources */,
 				F1FF1EA024BA700900D3F451 /* SceneDelegate.swift in Sources */,
 				F1117CE524CEB64F00CACA92 /* SetUpAccountViewController.swift in Sources */,
-				F19F5BE224D9E55500A8DC71 /* HistoryTableViewCell.swift in Sources */,
 				F1ABA4A824C44FD10008343E /* OTPVerify.swift in Sources */,
-				F173BA9F24D03A7900E8129A /* UserDetails.swift in Sources */,
+				F1117BC1255F4BE00001FEE7 /* CustomView.swift in Sources */,
+				F1F092C725487287000AFD54 /* HistoryTableViewCell.swift in Sources */,
+				F173BA9F24D03A7900E8129A /* UserLogin.swift in Sources */,
+				F1D282792562A82A00DDEF81 /* SettingsViewController.swift in Sources */,
+				F110A61A24DBEAEF0059C911 /* TrackViewController.swift in Sources */,
 				F19F5BDE24D97A5C00A8DC71 /* HistoryViewController.swift in Sources */,
 				F1FF1EB524BA70DB00D3F451 /* SignUpViewController.swift in Sources */,
 				F17956E524C0F1C100213FE5 /* Utils.swift in Sources */,
@@ -474,7 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = L328372XUN;
 				INFOPLIST_FILE = "Chisipiti Water/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -493,7 +553,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = L328372XUN;
 				INFOPLIST_FILE = "Chisipiti Water/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

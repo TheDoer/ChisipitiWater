@@ -14,115 +14,96 @@ import MBProgressHUD
 
 class HistoryViewController: UIViewController {
     
-    var mobileNumber:String = "263774731945"
+    //var mobileNumber:String = "263774731945"
     
     var historyData = [History]()
+    
     var reachability:Reachability?
     
     @IBOutlet weak var historyTableView: UITableView!
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        callingDelegates()
+        
+        self.HistoryAPICalling {
 
-        // Do any additional setup after loading the view.
+                       print("HistoryData Downloaded")
+                       self.historyTableView.reloadData()
+
+                            }
+
+
+    }
+    
+    
+    func callingDelegates(){
         
         historyTableView.dataSource = self
         historyTableView.delegate = self
         
-        HistoryAPICalling()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
     
-    func HistoryAPICalling(){
+    func HistoryAPICalling(completed: @escaping DownloadComplete){
         
-        do {
-            self.reachability = try Reachability.init()
-        } catch {
-            print("Unable to start notifier")
-        }
-        
-        if((reachability!.connection) != .unavailable){
+        let history_endpoint = "http://tegloma.com/chisipiti_app/history.php?mobileno=\(UserDetails.sharedInstance.mobileno)"
             
-            MBProgressHUD.showAdded(to: self.view, animated: true)
-            
-            let history_endpoint = "http://tegloma.com/chisipiti_app/history.php?mobileno=\(self.mobileNumber)"
-            
-            Alamofire.request(history_endpoint, method: .get).responseJSON { (historyResponse) in
+            Alamofire.request(history_endpoint, method: .get, encoding: JSONEncoding.default).responseJSON { (response) in
                 
-                //print("History Response: \(historyResponse)")
+                let result = response.result
+                let historyJSONData = JSON(result.value!)["data"]
                 
-                let result = historyResponse.result
-                let historyJSON = JSON(result.value!)
+                print("DATA: \(historyJSONData)")
                 
-                print("History Response: \(historyResponse)")
-                
-                for i in 0..<historyJSON.count {
+                for i in 0..<historyJSONData.count {
                     
-                    let allHistory = History(HistoryDict: historyJSON[i])
-                    self.historyData.append(allHistory)
-                    
-                    print("Volume: \(allHistory.volume)")
-                    print("Address: \(allHistory.address)")
-                    print("Date: \(allHistory.orderDate)")
-                    
-                    
-                    MBProgressHUD.hide(for: self.view, animated: true)
+                    let allHistoryData = History(HistoryDict: historyJSONData[i])
+                    self.historyData.append(allHistoryData)
                 }
                 
-                DispatchQueue.main.async{
-                 self.historyTableView.reloadData()
-                                       
-                }
+                completed()
                 
-            
                 
             }
-            
+             
+  
         }
-        
+    
+    
     }
+
+ //MARK:-  TABLEVIEW FUNCTIONS
+
+extension HistoryViewController: UITableViewDelegate, UITableViewDataSource {
     
     
-    
-    
-    
-
-}
-
-extension HistoryViewController: UITableViewDelegate,UITableViewDataSource {
-
-
-
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return historyData.count
-
     }
-
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = historyTableView.dequeueReusableCell(withIdentifier: "historyCell") as! HistoryTableViewCell
         
-        let cell = historyTableView.dequeueReusableCell(withIdentifier: "historycell", for: indexPath) as? HistoryTableViewCell
+        cell.configureCell(history: historyData[indexPath.row])
         
-        //cell?.addressTxt.text = historyData[indexPath.row].address
-        //cell?.volumeTxt.text = historyData[indexPath.row].volume
+        cell.backView.layer.cornerRadius = 5
+        cell.backView.clipsToBounds = true
         
-        
-        return cell!
-        
-        
-        
+        return cell
     }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
 
-
-
+        
+        return CGFloat(280/3)
+    }
+    
+    
 }
+
+
+
+
+

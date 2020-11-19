@@ -15,12 +15,15 @@ import MBProgressHUD
 
 class LoginViewController: UIViewController {
     
+    var userLogin = [UserLogin]()
     
-    
+
     var reachability:Reachability?
     
-    var userDetails = [UserDetails]()
+    var loginMessage = ""
     var loginStatus = ""
+    
+    
     
     
     let backgroundImageView = UIImageView()
@@ -35,7 +38,7 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
         setBackgroundOne()
         setBackground()
-        
+    
         
     }
     
@@ -44,12 +47,12 @@ class LoginViewController: UIViewController {
         
         guard let name = phoneNumberTxt!.text, name.isNotEmpty,
                    let password = PINTxt!.text, password.isNotEmpty else {
-                       simpleAlert(title: "Error", msg: "Please fill all login fields")
+                       simpleAlert(title: "Oops!", msg: "Please fill all login fields")
                         return
                }
         
-        
         LogInCallingAPI()
+        
     
     }
     
@@ -76,69 +79,64 @@ class LoginViewController: UIViewController {
             let  mobileNumber = phoneNumberTxt!.text!.trimmingCharacters(in: .whitespacesAndNewlines) as AnyObject
             
             let  Pin = PINTxt!.text!.trimmingCharacters(in: .whitespacesAndNewlines) as AnyObject
-            
-            
           
             let login_endpoint = "http://tegloma.com/chisipiti_app/registration.php?mobileno=\(mobileNumber)&pin=\(Pin)"
             
-           // http://tegloma.com/chisipiti_app/registration.php?mobileno=263774731945&pin=123
             
-             print(login_endpoint)
-            
-            Alamofire.request(login_endpoint,method: .get).responseJSON { (UserDetailsResponse) in
+            Alamofire.request(login_endpoint,method: .get, encoding:JSONEncoding.default).responseJSON {
+                (response) in
                 
-                //print(" Response: \(UserDetailsResponse.result)")
+                 let result = response.result
                 
-                switch UserDetailsResponse.result {
+                
+                switch response.result {
                     
-                case .success:
-                    let userData = try? JSON(data: UserDetailsResponse.data!)
+                case let .success(value):
+                  
+                    
+                    let userData = JSON(value)
                     
                     MBProgressHUD.hide(for: self.view, animated: true)
                     
-                    let userDataArray = userData![]
+                    if userData["success"].boolValue == true {
+                        
+                        let LoginJSONData = JSON(result.value!)["data"]
+                        print("LoginJSONData1: \(LoginJSONData)")
+                        
+                        for i in 0..<LoginJSONData.count {
+                            
+                            let userData = UserLogin(UserDict: LoginJSONData[i])
+                            self.userLogin.append(userData)
+                        }
+                        
+                        UserDetails.sharedInstance.name = JSON(result.value!)["data"][0]["name"].stringValue
+                        UserDetails.sharedInstance.mobileno = JSON(result.value!)["data"][0]["mobileno"].stringValue
+                        UserDetails.sharedInstance.physical_address = JSON(result.value!)["data"][0]["physical_address"].stringValue
+                        UserDetails.sharedInstance.login_status = JSON(result.value!)["data"][0]["login_status"].stringValue
+                        
+                         print("userData: \(userData)")
+                        self.performSegue(withIdentifier: "toMakeOrderView", sender: self)
+                        
                     
-                    for i in 0..<userDataArray.count {
-                        
-                        let UserDetailsItems = UserDetails(UserDetailsDict: userDataArray[i])
-                        self.userDetails.append(UserDetailsItems)
-                        
-                        print("UserDatails: \(UserDetailsItems.mobile_number)")
-                        
-                        self.loginStatus = UserDetailsItems.login_status
-                        
-                        print("Login Status: \(self.loginStatus )")
-                    
-                        
-                        if self.loginStatus == "success" {
-                            
-                            self.performSegue(withIdentifier: "toMakeOrderView", sender: self)
-                            
-                            
-//                            let profileViewController = newViewController.viewControllers?[0] as! ProfileViewController
-//                            profileViewController.Token = self.accessToken!
-                            
-                        
-                        } else  {
-                            
-                            let alert = UIAlertController(title: "Error", message: "\(self.loginStatus)", preferredStyle: .alert)
-                                                   
-                             let closeAction = UIAlertAction(title: "Try Again", style: UIAlertAction.Style.default, handler: {action in
-                                                    
-                                                       //print("Invalid Credentials")
-                                })
-                                    alert.addAction(closeAction)
-                                    self.present(alert, animated: true, completion: nil)
-                                }
-                                                       
-                   
                     }
+                        
+                    else  {
+                    
+                    let alert = UIAlertController(title: "Oops!", message: "Invalid Credentials", preferredStyle: .alert)
+                                           
+                     let closeAction = UIAlertAction(title: "Close", style: UIAlertAction.Style.default, handler: {action in
+                                            
+                                               
+                        })
+                            alert.addAction(closeAction)
+                            self.present(alert, animated: true, completion: nil)
+                        }
                     
                    
-                case .failure( let error):
+                case let .failure(error):
                 
                  print(error)
-                 let alert = UIAlertController(title: "", message: "Cannot Connect to Server", preferredStyle: .alert)
+                 let alert = UIAlertController(title: "Oh Snap!", message: "Cannot Connect to Server", preferredStyle: .alert)
                             
                             let closeAction = UIAlertAction(title: "Try Again", style: UIAlertAction.Style.cancel, handler: {action in
                                 print("Close")
@@ -160,15 +158,8 @@ class LoginViewController: UIViewController {
             
         }
         
-        
-        
-         
-        
-       
-        
+ 
     }
-    
-    
     
     
     func setBackground() {
@@ -196,12 +187,6 @@ class LoginViewController: UIViewController {
         view.sendSubviewToBack(backgroundImageViewOne)
         
     }
-    
-  
-    
-    
-    
-    
     
 
 }

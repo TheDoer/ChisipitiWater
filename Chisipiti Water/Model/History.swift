@@ -12,17 +12,19 @@ import Alamofire
 
 class History {
     
-    private var _volume:Int!
+    private var _orderNumber:String!
+    private var _orderVolume:Int!
     private var _orderDate:String!
     private var _address:String!
+    private var _orderStatus:Int!
     
     
-    var volume: Int {
-           if _volume == nil {
-               _volume = 0
+    var orderVolume: Int {
+           if _orderVolume == nil {
+               _orderVolume = 0
            }
         
-           return _volume
+           return _orderVolume
        }
     
     var address: String {
@@ -41,25 +43,50 @@ class History {
         return _orderDate
     }
     
+    var orderStatus: Int! {
+        if _orderStatus == nil {
+            _orderStatus = 0
+        }
+        
+        return _orderStatus
+        
+    }
+    
     init(HistoryDict: JSON?) {
-        self._volume = HistoryDict!["volume"].intValue
+        self._orderStatus = HistoryDict!["status_delivery"].intValue
+        self._orderVolume = HistoryDict!["volume"].intValue
+        self._orderDate = formattedDate(date: (HistoryDict?["date_of_order"].stringValue)!)
         self._address = HistoryDict!["physical_address"].stringValue
-        
-         // Initialize Date string
-        let dateStr = HistoryDict!["date_of_order"].stringValue
-
-         // Set date format
-        let dateFmt = DateFormatter()
-        dateFmt.timeZone = NSTimeZone.default
-        dateFmt.dateFormat =  "yyyy-MM-dd HH:mm:ss"
-        
-
-         // Get NSDate for the given string
-        let date = dateFmt.date(from: dateStr)
-        
-        self._orderDate = "\(date)"
         
         
   }
+    
+    func formattedDate(date: String) -> String {
+           
+           if date != "" {
+               
+               let index = date.index(date.startIndex, offsetBy: 15)
+               let dateSubstring = date[..<index]
+               
+               let originalDate = dateSubstring.replacingOccurrences(of: "T", with: " ")
+               
+               let formatter = DateFormatter()
+               formatter.locale = Locale(identifier: "en_US_POSIX")
+               formatter.dateFormat = "yyyy-MM-dd HH:mm"
+               
+               if let Ddate = formatter.date(from: originalDate){
+                   let displayFormatter = DateFormatter()
+                   displayFormatter.dateFormat = "dd MMMM yyyy, HH:mm"
+                   
+                   return displayFormatter.string(from: Ddate)
+               }
+           }
+           
+           return ""
+           
+           
+       }
+    
+    
     
 }
