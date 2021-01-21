@@ -18,6 +18,14 @@ class FinalOrderConfirmViewController: UIViewController {
     }
     
 
+    @IBAction func GoToTrackOrder(_ sender: Any) {
+        
+        let TrackVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "TrackVC")
+        TrackVC.modalPresentationStyle = .overCurrentContext
+        self.present(TrackVC, animated: true)
+        
+        
+    }
     /*
     // MARK: - Navigation
 

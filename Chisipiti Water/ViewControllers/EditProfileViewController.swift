@@ -68,11 +68,14 @@ class EditProfileViewController: UIViewController {
             
             print("Save Data Endpoint: \(saveDate_endpoint)")
             
+            if let encoded = saveDate_endpoint.addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed),
+                let url = URL(string: encoded) {
+                
             
-            Alamofire.request(saveDate_endpoint,method: .post, encoding:JSONEncoding.default).responseJSON {
-                           (response) in
+                Alamofire.request(url,method: .post, headers: nil).validate().responseJSON { (response) in
                 
                  print("Response: \(response)")
+                
                 let result = response.result
                 
                 switch response.result {
@@ -81,7 +84,7 @@ class EditProfileViewController: UIViewController {
                     
                     let saveDataResponse = JSON(value)
                     
-                    MBProgressHUD.hide(for: self.view, animated: true)
+                    //MBProgressHUD.hide(for: self.view, animated: true)
                     
                     if saveDataResponse["success"].boolValue == true {
                         
@@ -89,16 +92,23 @@ class EditProfileViewController: UIViewController {
                         
                         print("LoginJSONData1: \(saveJSONdata)")
                         
-                        let alert = UIAlertController(title: "Great News", message: "Profile Updated Successfully!", preferredStyle: .alert)
+                        let alert = UIAlertController(title: "Voila!", message: "Profile Updated Successfully!", preferredStyle: .alert)
                                               
-                        let closeAction = UIAlertAction(title: "Close", style: UIAlertAction.Style.default, handler: {action in
-                                               
-                                                  
-                           })
+                        let closeAction = UIAlertAction(title: "Close", style: UIAlertAction.Style.default, handler: { action in })
+                        
                                alert.addAction(closeAction)
                                self.present(alert, animated: true, completion: nil)
                         
+                              self.dismiss(animated: true, completion: nil)
+                        
+                        
+                        
+                        
+                               
                     }
+                    
+                    MBProgressHUD.hide(for: self.view, animated: true)
+                   
                     
                     
                 case let .failure(error):
@@ -123,4 +133,6 @@ class EditProfileViewController: UIViewController {
 
   }
 
+}
+    
 }

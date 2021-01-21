@@ -54,7 +54,6 @@ class SettingsViewController: UIViewController {
            navigationItem.title = "Settings"
        }
  
-
 }
 
 extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
@@ -122,7 +121,7 @@ extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
         case .Account:
             let auth = AuthOptions(rawValue: indexPath.row)
             
-            if (AuthOptions(rawValue: indexPath.row)?.description) == "Edit Profile" {
+            if (AuthOptions(rawValue: indexPath.row)?.description) == "Personal Information" {
                 
                 let EditProfileVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "EditProfileVC")
                 EditProfileVC.modalPresentationStyle = .fullScreen
@@ -140,19 +139,13 @@ extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
         case .Communications:
             let communications = CommunicationsOptions(rawValue: indexPath.row)
             
-            if  (CommunicationsOptions(rawValue: indexPath.row)?.description) == "Customer Support" {
+             //(CommunicationsOptions(rawValue: indexPath.row)?.description) == "Customer Support"
             
             let EditProfileVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "CustomerSupportVC")
              EditProfileVC.modalPresentationStyle = .fullScreen
             self.present(EditProfileVC, animated: true)
                 
-            } else {
-                
-                let EditProfileVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "ReportCrashesVC")
-                 EditProfileVC.modalPresentationStyle = .fullScreen
-                self.present(EditProfileVC, animated: true)
-                    
-                }
+        
             
             print(CommunicationsOptions(rawValue: indexPath.row)?.description)
             

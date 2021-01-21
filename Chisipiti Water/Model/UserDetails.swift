@@ -19,4 +19,5 @@ class UserDetails {
     var mobileno = ""
     var physical_address = ""
     var login_status = ""
+    var signUp_Status = ""
 }

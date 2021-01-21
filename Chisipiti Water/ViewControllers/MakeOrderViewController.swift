@@ -28,6 +28,7 @@ class MakeOrderViewController: UIViewController {
     var address:String = ""
     
     
+    
     var ProductData = [Product]()
     
    
@@ -50,14 +51,19 @@ class MakeOrderViewController: UIViewController {
     
     @IBAction func plusBtn(_ sender: Any) {
         
+        if quantity >= 1 && quantity < 10 {
+            
         quantity = quantity + 1
         waterQuantityLbl.text = "\(quantity)"
         
         totalPrice = price * quantity
+            
+//            PlusButton.isEnabled = quantity > 9
+//            PlusButton.backgroundColor = !PlusButton.isEnabled ? .red : .red
         
          priceLbl.text = "TOTAL PRICE: $\(totalPrice)"
     
-        
+        }
     }
     
     @IBAction func minusBtn(_ sender: Any) {
@@ -67,6 +73,9 @@ class MakeOrderViewController: UIViewController {
             waterQuantityLbl.text = "\(quantity)"
             
             totalPrice = price * quantity
+            
+//            MinusButton.isEnabled = quantity > 0
+//            MinusButton.backgroundColor = !MinusButton.isEnabled ? .red : .red
             
             priceLbl.text = "TOTAL PRICE: $\(totalPrice)"
         }
@@ -151,5 +160,5 @@ class MakeOrderViewController: UIViewController {
                 
                }
            }
-
+    
 }

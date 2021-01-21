@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xyG-FY-fpO">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,11 +12,11 @@
             <objects>
                 <viewController storyboardIdentifier="LoginViewController" modalPresentationStyle="fullScreen" id="xyG-FY-fpO" customClass="LoginViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2bO-lI-jee">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Yc4-xV-bbH">
-                                <rect key="frame" x="20" y="792" width="374" height="30"/>
+                                <rect key="frame" x="20" y="597" width="335" height="30"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFj-ds-R5y">
                                         <rect key="frame" x="0.0" y="0.0" width="91.5" height="30"/>
@@ -26,7 +26,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T2w-4F-asc">
-                                        <rect key="frame" x="96.5" y="0.0" width="277.5" height="30"/>
+                                        <rect key="frame" x="96.5" y="0.0" width="238.5" height="30"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="Create One">
@@ -39,7 +39,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vi7-aY-Tb3" customClass="CustomButtton" customModule="Chisipiti_Water" customModuleProvider="target">
-                                <rect key="frame" x="20" y="712" width="374" height="50"/>
+                                <rect key="frame" x="20" y="517" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.077041961249999999" green="0.45249569420000002" blue="0.54903507230000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="5by-kx-Jzt"/>
@@ -53,7 +53,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZy-Gd-sJ7" customClass="CustomButtton" customModule="Chisipiti_Water" customModuleProvider="target">
-                                <rect key="frame" x="20" y="632" width="374" height="50"/>
+                                <rect key="frame" x="20" y="437" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.077041961249999999" green="0.45249569420000002" blue="0.54903507230000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="qJl-lO-J6w"/>
@@ -68,7 +68,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="PIN" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZQu-3V-U0K" customClass="HoshiTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="20" y="532" width="374" height="50"/>
+                                <rect key="frame" x="20" y="337" width="335" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="f6x-0U-YRH"/>
                                 </constraints>
@@ -91,7 +91,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mobile Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IMp-8W-Nii" customClass="HoshiTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="20" y="452" width="374" height="50"/>
+                                <rect key="frame" x="20" y="257" width="335" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="H9B-Mi-PO0"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="TXx-OU-web"/>
@@ -115,7 +115,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="e5R-Iy-Avd">
-                                <rect key="frame" x="80" y="212" width="254" height="120"/>
+                                <rect key="frame" x="80" y="97" width="215" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="v8n-FA-Pik"/>
                                 </constraints>
@@ -134,7 +134,7 @@
                             <constraint firstItem="yZy-Gd-sJ7" firstAttribute="leading" secondItem="2bO-lI-jee" secondAttribute="leading" constant="20" id="LGK-fC-IJ6"/>
                             <constraint firstItem="e5R-Iy-Avd" firstAttribute="leading" secondItem="2bO-lI-jee" secondAttribute="leading" constant="80" id="N4X-gq-Rui"/>
                             <constraint firstAttribute="trailing" secondItem="yZy-Gd-sJ7" secondAttribute="trailing" constant="20" id="SgX-sf-aNF"/>
-                            <constraint firstItem="IMp-8W-Nii" firstAttribute="top" secondItem="e5R-Iy-Avd" secondAttribute="bottom" constant="120" id="TjF-LG-dlK"/>
+                            <constraint firstItem="IMp-8W-Nii" firstAttribute="top" secondItem="e5R-Iy-Avd" secondAttribute="bottom" constant="40" id="TjF-LG-dlK"/>
                             <constraint firstAttribute="trailing" secondItem="ZQu-3V-U0K" secondAttribute="trailing" constant="20" id="Whr-OH-73q"/>
                             <constraint firstItem="Vi7-aY-Tb3" firstAttribute="top" secondItem="yZy-Gd-sJ7" secondAttribute="bottom" constant="30" id="a4v-hm-K9m"/>
                             <constraint firstItem="IMp-8W-Nii" firstAttribute="leading" secondItem="jik-Lz-XiJ" secondAttribute="leading" constant="20" id="eet-Nl-8yk"/>
@@ -160,11 +160,11 @@
             <objects>
                 <viewController storyboardIdentifier="SignUpViewController" modalPresentationStyle="fullScreen" id="bZ7-nZ-d7j" customClass="SignUpViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ixa-hR-bK4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="3uy-ec-gvF">
-                                <rect key="frame" x="20" y="802" width="374" height="30"/>
+                                <rect key="frame" x="20" y="607" width="335" height="30"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOg-Ie-fjn">
                                         <rect key="frame" x="0.0" y="0.0" width="183.5" height="30"/>
@@ -174,7 +174,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZV-Kk-b89">
-                                        <rect key="frame" x="188.5" y="0.0" width="185.5" height="30"/>
+                                        <rect key="frame" x="188.5" y="0.0" width="146.5" height="30"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="Log In Now">
@@ -187,7 +187,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Juz-HQ-v02" customClass="CustomButtton" customModule="Chisipiti_Water" customModuleProvider="target">
-                                <rect key="frame" x="20" y="722" width="374" height="50"/>
+                                <rect key="frame" x="20" y="527" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.077041961249999999" green="0.45249569420000002" blue="0.54903507230000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="hiR-Eu-yHx"/>
@@ -201,12 +201,13 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Address(Harare Only)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="92R-Q6-bb3" customClass="HoshiTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="20" y="622" width="374" height="50"/>
+                                <rect key="frame" x="20" y="427" width="335" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="JjA-aY-53D"/>
                                 </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" textContentType="street-address"/>
+                                <textInputTraits key="textInputTraits" keyboardType="namePhonePad" textContentType="street-address"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
                                         <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -222,14 +223,15 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Pin" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="37y-QS-KdV" customClass="HoshiTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="20" y="532" width="374" height="50"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mobile Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="37y-QS-KdV" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="20" y="337" width="335" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="0Ar-Vz-Wsz"/>
                                     <constraint firstAttribute="height" constant="50" id="bNU-AU-yMC"/>
                                 </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" textContentType="password"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="tel"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
                                         <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -246,13 +248,14 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Full Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W8Z-Pj-uIx" customClass="HoshiTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="20" y="442" width="374" height="50"/>
+                                <rect key="frame" x="20" y="247" width="335" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="4RC-zD-VYp"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="hbU-iM-RtW"/>
                                 </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" textContentType="name"/>
+                                <textInputTraits key="textInputTraits" keyboardType="namePhonePad" textContentType="name"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
                                         <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -269,11 +272,24 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="YwS-H0-PCD">
-                                <rect key="frame" x="80" y="202" width="254" height="120"/>
+                                <rect key="frame" x="80" y="87" width="215" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="IFJ-aT-rj6"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGz-Gs-4vx">
+                                <rect key="frame" x="20" y="20" width="35" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35" id="3xT-NB-a8N"/>
+                                    <constraint firstAttribute="height" constant="36" id="Fy1-X2-WLz"/>
+                                    <constraint firstAttribute="width" constant="35" id="xhK-xL-DYR"/>
+                                </constraints>
+                                <state key="normal" image="black back icon-1"/>
+                                <connections>
+                                    <action selector="BackBtn:" destination="bZ7-nZ-d7j" eventType="touchUpInside" id="wbM-Qh-JqN"/>
+                                    <action selector="backBtn:" destination="gPP-mH-O6I" eventType="touchUpInside" id="iHL-qO-bpl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -286,15 +302,17 @@
                             <constraint firstItem="3uy-ec-gvF" firstAttribute="leading" secondItem="Ixa-hR-bK4" secondAttribute="leading" constant="20" id="PxS-up-bWC"/>
                             <constraint firstItem="YwS-H0-PCD" firstAttribute="leading" secondItem="bck-Yk-h3t" secondAttribute="leading" constant="80" id="bFL-qg-ISg"/>
                             <constraint firstItem="3uy-ec-gvF" firstAttribute="top" secondItem="Juz-HQ-v02" secondAttribute="bottom" constant="30" id="euo-lf-qPI"/>
+                            <constraint firstItem="FGz-Gs-4vx" firstAttribute="top" secondItem="bck-Yk-h3t" secondAttribute="top" constant="20" id="hDo-Ix-bUE"/>
                             <constraint firstItem="bck-Yk-h3t" firstAttribute="trailing" secondItem="W8Z-Pj-uIx" secondAttribute="trailing" constant="20" id="hHm-sP-BWy"/>
                             <constraint firstItem="37y-QS-KdV" firstAttribute="top" secondItem="W8Z-Pj-uIx" secondAttribute="bottom" constant="40" id="hgx-k1-c3Z"/>
+                            <constraint firstItem="FGz-Gs-4vx" firstAttribute="leading" secondItem="bck-Yk-h3t" secondAttribute="leading" constant="20" id="iev-6m-rVn"/>
                             <constraint firstAttribute="trailing" secondItem="92R-Q6-bb3" secondAttribute="trailing" constant="20" id="m7S-7Y-XfA"/>
                             <constraint firstAttribute="trailing" secondItem="3uy-ec-gvF" secondAttribute="trailing" constant="20" id="myv-U2-yN0"/>
                             <constraint firstItem="Juz-HQ-v02" firstAttribute="leading" secondItem="bck-Yk-h3t" secondAttribute="leading" constant="20" id="rhK-67-aw1"/>
                             <constraint firstItem="92R-Q6-bb3" firstAttribute="top" secondItem="37y-QS-KdV" secondAttribute="bottom" constant="40" id="ssW-TZ-pJj"/>
                             <constraint firstItem="37y-QS-KdV" firstAttribute="leading" secondItem="Ixa-hR-bK4" secondAttribute="leading" constant="20" id="tii-rE-x0R"/>
                             <constraint firstItem="bck-Yk-h3t" firstAttribute="trailing" secondItem="YwS-H0-PCD" secondAttribute="trailing" constant="80" id="xeZ-ES-ZxG"/>
-                            <constraint firstItem="W8Z-Pj-uIx" firstAttribute="top" secondItem="YwS-H0-PCD" secondAttribute="bottom" constant="120" id="z7f-AY-IL4"/>
+                            <constraint firstItem="W8Z-Pj-uIx" firstAttribute="top" secondItem="YwS-H0-PCD" secondAttribute="bottom" constant="40" id="z7f-AY-IL4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bck-Yk-h3t"/>
                     </view>
@@ -302,7 +320,7 @@
                     <connections>
                         <outlet property="AddressTxt" destination="92R-Q6-bb3" id="Wj3-zH-1bk"/>
                         <outlet property="FullNameTxt" destination="W8Z-Pj-uIx" id="6Ad-xR-YKg"/>
-                        <outlet property="PINTxt" destination="37y-QS-KdV" id="ayP-Oe-iES"/>
+                        <outlet property="MobileNumberTtxt" destination="37y-QS-KdV" id="1Dz-Vs-UPB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="azQ-Ub-Xvs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -314,11 +332,11 @@
             <objects>
                 <viewController storyboardIdentifier="MakeOrderViewController" modalPresentationStyle="fullScreen" id="0Tb-Qy-zec" customClass="MakeOrderViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6rF-W9-hKZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="786"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="591"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="155-Is-hpI" customClass="CustomButtton" customModule="Chisipiti_Water" customModuleProvider="target">
-                                <rect key="frame" x="20" y="632" width="374" height="50"/>
+                                <rect key="frame" x="20" y="437" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.076042540369999995" green="0.59488409760000005" blue="0.90984153749999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="JxT-Yw-3zT"/>
@@ -333,7 +351,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOW MUCH WATER DO YOU WANT DELIVERED?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qLU-Ec-CR2">
-                                <rect key="frame" x="10" y="25" width="394" height="50"/>
+                                <rect key="frame" x="10" y="25" width="355" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="kfh-lI-FoT"/>
                                 </constraints>
@@ -342,16 +360,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="9FH-Qi-neN">
-                                <rect key="frame" x="15" y="360" width="384" height="162.5"/>
+                                <rect key="frame" x="15" y="240" width="345" height="127"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THOUSAND LITERS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eh2-YP-8bO">
-                                        <rect key="frame" x="41.5" y="0.0" width="301.5" height="67"/>
+                                        <rect key="frame" x="22" y="0.0" width="301.5" height="31.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
                                         <color key="textColor" red="0.052127406000000001" green="0.47841894629999998" blue="0.74905151130000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="TOTAL COST: $ 10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuI-fp-Z73">
-                                        <rect key="frame" x="34" y="117" width="316.5" height="45.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="TOTAL COST: $ 10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuI-fp-Z73">
+                                        <rect key="frame" x="14.5" y="81.5" width="316.5" height="45.5"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="38"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -359,7 +377,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="tSZ-qr-VMW">
-                                <rect key="frame" x="20" y="235" width="374" height="80"/>
+                                <rect key="frame" x="30" y="115" width="315" height="80"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Flo-5C-1zD" customClass="CustomButtton" customModule="Chisipiti_Water" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
@@ -377,13 +395,17 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHU-eJ-NVN">
-                                        <rect key="frame" x="167" y="0.0" width="40" height="80"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="85"/>
+                                        <rect key="frame" x="130" y="0.0" width="55" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="55" id="GSa-IA-Qkg"/>
+                                            <constraint firstAttribute="height" constant="80" id="igH-Ya-i76"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                         <color key="textColor" red="0.052127406000000001" green="0.47841894629999998" blue="0.74905151130000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9O-Zd-ZG8" customClass="CustomButtton" customModule="Chisipiti_Water" customModuleProvider="target">
-                                        <rect key="frame" x="294" y="0.0" width="80" height="80"/>
+                                        <rect key="frame" x="235" y="0.0" width="80" height="80"/>
                                         <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="80" id="G24-iH-N55"/>
@@ -406,15 +428,15 @@
                             <constraint firstItem="Hgy-XJ-ek6" firstAttribute="trailing" secondItem="9FH-Qi-neN" secondAttribute="trailing" constant="15" id="38Z-r6-Cuy"/>
                             <constraint firstItem="155-Is-hpI" firstAttribute="leading" secondItem="6rF-W9-hKZ" secondAttribute="leading" constant="20" id="7ud-Yp-Bvd"/>
                             <constraint firstItem="9FH-Qi-neN" firstAttribute="top" secondItem="tSZ-qr-VMW" secondAttribute="bottom" constant="45" id="FOy-ak-s4P"/>
-                            <constraint firstItem="Hgy-XJ-ek6" firstAttribute="trailing" secondItem="tSZ-qr-VMW" secondAttribute="trailing" constant="20" id="KcL-5f-Ehq"/>
-                            <constraint firstItem="tSZ-qr-VMW" firstAttribute="leading" secondItem="Hgy-XJ-ek6" secondAttribute="leading" constant="20" id="SnF-9W-va7"/>
+                            <constraint firstItem="Hgy-XJ-ek6" firstAttribute="trailing" secondItem="tSZ-qr-VMW" secondAttribute="trailing" constant="30" id="KcL-5f-Ehq"/>
+                            <constraint firstItem="tSZ-qr-VMW" firstAttribute="leading" secondItem="Hgy-XJ-ek6" secondAttribute="leading" constant="30" id="SnF-9W-va7"/>
                             <constraint firstAttribute="trailing" secondItem="qLU-Ec-CR2" secondAttribute="trailing" constant="10" id="Tk9-QD-nkD"/>
                             <constraint firstItem="qLU-Ec-CR2" firstAttribute="top" secondItem="Hgy-XJ-ek6" secondAttribute="top" constant="25" id="Znk-qn-Vda"/>
                             <constraint firstItem="9FH-Qi-neN" firstAttribute="leading" secondItem="Hgy-XJ-ek6" secondAttribute="leading" constant="15" id="cQ0-Fa-BWw"/>
                             <constraint firstItem="Hgy-XJ-ek6" firstAttribute="bottom" secondItem="155-Is-hpI" secondAttribute="bottom" constant="75" id="dSx-xL-Seg"/>
                             <constraint firstItem="qLU-Ec-CR2" firstAttribute="leading" secondItem="Hgy-XJ-ek6" secondAttribute="leading" constant="10" id="gAL-GS-OU8"/>
-                            <constraint firstItem="tSZ-qr-VMW" firstAttribute="top" secondItem="qLU-Ec-CR2" secondAttribute="bottom" constant="160" id="saR-Th-rHV"/>
-                            <constraint firstItem="155-Is-hpI" firstAttribute="top" secondItem="9FH-Qi-neN" secondAttribute="bottom" constant="109.33" id="wg8-iF-dWd"/>
+                            <constraint firstItem="tSZ-qr-VMW" firstAttribute="top" secondItem="qLU-Ec-CR2" secondAttribute="bottom" constant="40" id="saR-Th-rHV"/>
+                            <constraint firstItem="155-Is-hpI" firstAttribute="top" secondItem="9FH-Qi-neN" secondAttribute="bottom" constant="70" id="wg8-iF-dWd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Hgy-XJ-ek6"/>
                     </view>
@@ -436,34 +458,34 @@
             <objects>
                 <viewController storyboardIdentifier="HistoryViewController" modalPresentationStyle="fullScreen" id="giC-EP-KWg" customClass="HistoryViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8KB-e9-uqJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You don't have order history yet." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jX0-TC-NaJ">
-                                <rect key="frame" x="27" y="396" width="360.5" height="50"/>
+                                <rect key="frame" x="22" y="298.5" width="331" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="y7f-tg-Jwm"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eGf-s9-Nzx">
-                                <rect key="frame" x="0.0" y="108" width="414" height="734"/>
+                                <rect key="frame" x="0.0" y="108" width="375" height="539"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="historyCell" rowHeight="80" id="FcQ-Jl-Fyc" customClass="HistoryTableViewCell" customModule="Chisipiti_Water" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="80"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FcQ-Jl-Fyc" id="hxE-fv-DlA">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ow9-cK-HMB" customClass="CustomView" customModule="Chisipiti_Water" customModuleProvider="target">
-                                                    <rect key="frame" x="2" y="2" width="410" height="76"/>
+                                                    <rect key="frame" x="2" y="2" width="371" height="76"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="X6f-jv-EEy">
-                                                            <rect key="frame" x="6" y="2" width="404" height="72.5"/>
+                                                            <rect key="frame" x="6" y="2" width="365" height="72.5"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image-2" translatesAutoresizingMaskIntoConstraints="NO" id="ijh-tr-eWJ">
                                                                     <rect key="frame" x="0.0" y="8" width="56.5" height="56.5"/>
@@ -473,7 +495,7 @@
                                                                     </constraints>
                                                                 </imageView>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="JEj-92-ZXq">
-                                                                    <rect key="frame" x="71.5" y="7" width="332.5" height="58.5"/>
+                                                                    <rect key="frame" x="71.5" y="7" width="293.5" height="58.5"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Delivered - 5000 Liters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H30-PT-YOv">
                                                                             <rect key="frame" x="0.0" y="0.0" width="234.5" height="20.5"/>
@@ -539,133 +561,142 @@
                     <navigationItem key="navigationItem" title="Order History" id="Ay3-kJ-fus"/>
                     <connections>
                         <outlet property="historyTableView" destination="eGf-s9-Nzx" id="KQi-Wv-JQm"/>
+                        <outlet property="noHistoryLbl" destination="jX0-TC-NaJ" id="vOF-N8-SdN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6w0-Yx-Vfi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2317.3913043478265" y="1336.6071428571429"/>
+            <point key="canvasLocation" x="2262" y="1338"/>
         </scene>
         <!--Customer Support View Controller-->
         <scene sceneID="Wfw-xY-AIS">
             <objects>
                 <viewController storyboardIdentifier="CustomerSupportVC" id="1KI-1s-1dh" customClass="CustomerSupportViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gMg-Uk-0Ap">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="taI-f6-hFg">
-                                <rect key="frame" x="30" y="194" width="354" height="586.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TwP-D2-Q90">
+                                <rect key="frame" x="20" y="20" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="RlY-ke-UXw"/>
+                                    <constraint firstAttribute="width" constant="35" id="lNA-KA-Qt9"/>
+                                </constraints>
+                                <state key="normal" image="black back icon"/>
+                                <connections>
+                                    <action selector="backBtn:" destination="1KI-1s-1dh" eventType="touchUpInside" id="TdA-8m-Yhc"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="43" translatesAutoresizingMaskIntoConstraints="NO" id="Vy9-ph-aVE">
+                                <rect key="frame" x="15" y="70" width="345" height="557"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="q3Z-5i-RN5">
-                                        <rect key="frame" x="57" y="0.0" width="240" height="128"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CUSTOMER SUPPORT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oMo-7s-WSM">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-chat-96" translatesAutoresizingMaskIntoConstraints="NO" id="fMZ-o2-Swj">
+                                        <rect key="frame" x="0.0" y="67" width="345" height="128"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="128" id="opV-le-stY"/>
+                                            <constraint firstAttribute="height" constant="128" id="fXI-La-nRO"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you have an inquiry, you can enter it below and someone will respond to you as soon as possible." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obC-1C-jj7">
-                                        <rect key="frame" x="0.0" y="168" width="354" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let us know your suggestions, queries below, we promise to respond as soon as we can." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGp-vc-eMa">
+                                        <rect key="frame" x="0.0" y="238" width="345" height="61"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Your Comments:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="P9J-bx-0dl">
-                                        <rect key="frame" x="57" y="228.5" width="240" height="268"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ka3-0t-SJX">
+                                        <rect key="frame" x="0.0" y="342" width="345" height="122"/>
+                                        <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xrp-qi-60I">
-                                        <rect key="frame" x="120" y="536.5" width="114" height="50"/>
-                                        <color key="backgroundColor" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujJ-2G-s5U" customClass="CustomButtton" customModule="Chisipiti_Water" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="507" width="345" height="50"/>
+                                        <color key="backgroundColor" red="0.076042540369999995" green="0.59488409760000005" blue="0.90984153749999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="374" id="HrC-4f-Hfw"/>
-                                            <constraint firstAttribute="height" constant="50" id="hhz-4h-bG4"/>
+                                            <constraint firstAttribute="height" constant="50" id="6oM-LS-roy"/>
                                         </constraints>
-                                        <state key="normal" title="Send Comments">
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="SEND QUERY">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="GoToTrackOrder:" destination="ewK-Yv-ayz" eventType="touchUpInside" id="iEg-J4-hRU"/>
+                                            <action selector="createAccountBtn:" destination="bZ7-nZ-d7j" eventType="touchUpInside" id="CgT-jv-g6K"/>
+                                        </connections>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="q3Z-5i-RN5" firstAttribute="leading" secondItem="P9J-bx-0dl" secondAttribute="leading" id="MjV-Hv-jSA"/>
-                                    <constraint firstItem="q3Z-5i-RN5" firstAttribute="leading" secondItem="taI-f6-hFg" secondAttribute="leading" constant="57" id="r06-6H-mrc"/>
-                                </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anc-dw-XiL">
-                                <rect key="frame" x="20" y="64" width="30" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="0e6-gb-4v7"/>
-                                    <constraint firstAttribute="width" constant="30" id="O4d-aS-4A1"/>
-                                </constraints>
-                                <state key="normal" image="black back icon"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="L6Y-Tt-YPe" firstAttribute="bottom" secondItem="taI-f6-hFg" secondAttribute="bottom" constant="81.5" id="0RC-H7-mqe"/>
-                            <constraint firstItem="taI-f6-hFg" firstAttribute="top" secondItem="anc-dw-XiL" secondAttribute="bottom" constant="100" id="3jC-Ei-1AS"/>
-                            <constraint firstItem="anc-dw-XiL" firstAttribute="leading" secondItem="L6Y-Tt-YPe" secondAttribute="leading" constant="20" id="3o5-9D-TjH"/>
-                            <constraint firstItem="L6Y-Tt-YPe" firstAttribute="trailing" secondItem="taI-f6-hFg" secondAttribute="trailing" constant="30" id="Okv-2h-gHC"/>
-                            <constraint firstItem="taI-f6-hFg" firstAttribute="leading" secondItem="L6Y-Tt-YPe" secondAttribute="leading" constant="30" id="Uvo-mE-d9j"/>
-                            <constraint firstItem="anc-dw-XiL" firstAttribute="top" secondItem="L6Y-Tt-YPe" secondAttribute="top" constant="20" id="suz-JI-1dA"/>
-                            <constraint firstItem="anc-dw-XiL" firstAttribute="leading" secondItem="gMg-Uk-0Ap" secondAttribute="leadingMargin" id="wSK-Aw-5kR"/>
+                            <constraint firstItem="Vy9-ph-aVE" firstAttribute="leading" secondItem="gMg-Uk-0Ap" secondAttribute="leading" constant="15" id="7QS-uu-7Oc"/>
+                            <constraint firstItem="L6Y-Tt-YPe" firstAttribute="trailing" secondItem="Vy9-ph-aVE" secondAttribute="trailing" constant="15" id="8QS-b9-MMG"/>
+                            <constraint firstItem="Vy9-ph-aVE" firstAttribute="top" secondItem="TwP-D2-Q90" secondAttribute="bottom" constant="15" id="I2U-3e-E5P"/>
+                            <constraint firstItem="TwP-D2-Q90" firstAttribute="leading" secondItem="L6Y-Tt-YPe" secondAttribute="leading" constant="20" id="XUA-ip-QNj"/>
+                            <constraint firstItem="L6Y-Tt-YPe" firstAttribute="bottom" secondItem="Vy9-ph-aVE" secondAttribute="bottom" constant="40" id="dAd-4e-gmc"/>
+                            <constraint firstItem="TwP-D2-Q90" firstAttribute="top" secondItem="L6Y-Tt-YPe" secondAttribute="top" constant="20" id="vfh-IA-EYq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="L6Y-Tt-YPe"/>
                     </view>
+                    <connections>
+                        <outlet property="queryMsgText" destination="ka3-0t-SJX" id="hLt-se-Om9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UT8-Zk-6xA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3395.652173913044" y="1336.6071428571429"/>
+            <point key="canvasLocation" x="3622" y="1346"/>
         </scene>
         <!--Report Crashes View Controller-->
         <scene sceneID="WED-rg-JBM">
             <objects>
                 <viewController storyboardIdentifier="ReportCrashesVC" id="Kov-3k-FeS" customClass="ReportCrashesViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eeh-Un-7yj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report Crashes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBe-38-Bir">
-                                <rect key="frame" x="147.5" y="437.5" width="119.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCQ-Fo-42N" customClass="CustomButtton" customModule="Chisipiti_Water" customModuleProvider="target">
+                                <rect key="frame" x="20" y="730" width="374" height="50"/>
+                                <color key="backgroundColor" red="0.076042540369999995" green="0.59488409760000005" blue="0.90984153749999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="3uB-Gy-5mC"/>
+                                    <constraint firstAttribute="height" constant="50" id="Qny-y9-vh6"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="cKi-OP-bfu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="TRACK ORDER">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="GoToTrackOrder:" destination="ewK-Yv-ayz" eventType="touchUpInside" id="El0-kE-rBn"/>
+                                    <action selector="createAccountBtn:" destination="bZ7-nZ-d7j" eventType="touchUpInside" id="jiI-UH-YLY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="FBe-38-Bir" firstAttribute="centerX" secondItem="eeh-Un-7yj" secondAttribute="centerX" id="5AD-zL-Tdh"/>
-                            <constraint firstItem="FBe-38-Bir" firstAttribute="centerY" secondItem="eeh-Un-7yj" secondAttribute="centerY" id="GAJ-hj-UZc"/>
+                            <constraint firstItem="lCQ-Fo-42N" firstAttribute="top" secondItem="Jre-G1-l0K" secondAttribute="top" constant="730" id="94H-fx-77I"/>
+                            <constraint firstItem="lCQ-Fo-42N" firstAttribute="leading" secondItem="eeh-Un-7yj" secondAttribute="leadingMargin" constant="4" id="NnQ-ad-FxG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lCQ-Fo-42N" secondAttribute="trailing" constant="-35" id="lgq-f4-HsJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Jre-G1-l0K"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qKU-sV-Dqx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4269" y="1347"/>
-        </scene>
-        <!--Track Order-->
-        <scene sceneID="BB8-42-fsp">
-            <objects>
-                <viewController storyboardIdentifier="TrackViewController" modalPresentationStyle="fullScreen" id="9vS-C2-V0X" customClass="TrackViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="7Ot-Jd-1sR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="TeO-QL-fdd"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Track Order" leftItemsSupplementBackButton="YES" id="clr-zY-1wH"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6F9-kI-0FW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5150.7246376811599" y="597.99107142857144"/>
+            <point key="canvasLocation" x="4657" y="1345"/>
         </scene>
         <!--Settings-->
         <scene sceneID="pxz-T1-yPU">
             <objects>
                 <viewController storyboardIdentifier="SettingsViewController" id="DzT-YM-pRP" customClass="SettingsViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kvI-wZ-hQL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="FMI-tj-I9y"/>
@@ -681,11 +712,11 @@
             <objects>
                 <viewController storyboardIdentifier="ConfirmOrderDetailsViewController" modalPresentationStyle="fullScreen" id="IwG-VW-Rux" customClass="ConfirmOrderDetailsViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uqX-PH-xf5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="786"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="591"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyr-hP-xkm" customClass="CustomButtton" customModule="Chisipiti_Water" customModuleProvider="target">
-                                <rect key="frame" x="20" y="632" width="374" height="50"/>
+                                <rect key="frame" x="20" y="437" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.076042540369999995" green="0.59488409760000005" blue="0.90984153749999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="8t1-4l-DZ3"/>
@@ -701,46 +732,46 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nnF-J3-FB6">
-                                <rect key="frame" x="10" y="40" width="394" height="512"/>
+                                <rect key="frame" x="10" y="40" width="355" height="317"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CONFIRMATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ct2-0a-3Lx">
-                                        <rect key="frame" x="0.0" y="0.0" width="394" height="69"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="41"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3,000 Liters" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cb-x5-6T7">
-                                        <rect key="frame" x="0.0" y="74" width="394" height="68.5"/>
+                                        <rect key="frame" x="0.0" y="46" width="355" height="41"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                         <color key="textColor" red="0.052127406000000001" green="0.47841894629999998" blue="0.74905151130000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Cost: $ 10.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w92-Yy-DS4">
-                                        <rect key="frame" x="0.0" y="147.5" width="394" height="69"/>
+                                        <rect key="frame" x="0.0" y="92" width="355" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment On Delivery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWb-MH-2Ep">
-                                        <rect key="frame" x="0.0" y="221.5" width="394" height="69"/>
+                                        <rect key="frame" x="0.0" y="138" width="355" height="41"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tendai Machopa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwW-9t-I1G">
-                                        <rect key="frame" x="0.0" y="295.5" width="394" height="69"/>
+                                        <rect key="frame" x="0.0" y="184" width="355" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0773 423 455" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rE9-Yo-hcw">
-                                        <rect key="frame" x="0.0" y="369.5" width="394" height="68.5"/>
+                                        <rect key="frame" x="0.0" y="230" width="355" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="47 Alfred Road, Greendale, Harare" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyk-c6-ODg">
-                                        <rect key="frame" x="0.0" y="443" width="394" height="69"/>
+                                        <rect key="frame" x="0.0" y="276" width="355" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -779,11 +810,11 @@
             <objects>
                 <viewController storyboardIdentifier="FinalOrderConfirmViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ewK-Yv-ayz" customClass="FinalOrderConfirmViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oIu-bb-WOp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="786"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="591"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fa-SA-IW5" customClass="CustomButtton" customModule="Chisipiti_Water" customModuleProvider="target">
-                                <rect key="frame" x="20" y="632" width="374" height="50"/>
+                                <rect key="frame" x="20" y="437" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.076042540369999995" green="0.59488409760000005" blue="0.90984153749999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="DrZ-MY-GZn"/>
@@ -795,11 +826,11 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="createAccountBtn:" destination="bZ7-nZ-d7j" eventType="touchUpInside" id="4hy-9Z-jo5"/>
+                                    <action selector="GoToTrackOrder:" destination="ewK-Yv-ayz" eventType="touchUpInside" id="ucm-94-sbw"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment On Delivery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sO1-3e-bPu">
-                                <rect key="frame" x="10" y="482" width="394" height="50"/>
+                                <rect key="frame" x="10" y="287" width="355" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="QXV-g3-tXh"/>
                                 </constraints>
@@ -808,7 +839,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Once your order has been accepted, You can track your order below." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VFj-F1-ewF">
-                                <rect key="frame" x="30" y="432" width="354" height="50"/>
+                                <rect key="frame" x="30" y="237" width="315" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="ptZ-oQ-g7Z"/>
                                 </constraints>
@@ -817,7 +848,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR WATER ORDER WAS SENT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGX-nG-ELf">
-                                <rect key="frame" x="10" y="382" width="394" height="50"/>
+                                <rect key="frame" x="10" y="187" width="355" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="h1q-Y4-Nlc"/>
                                 </constraints>
@@ -826,7 +857,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-checked-150" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZRe-Wh-ynS">
-                                <rect key="frame" x="94" y="55" width="226" height="282"/>
+                                <rect key="frame" x="94" y="55" width="187" height="87"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -869,172 +900,217 @@
                     <connections>
                         <segue destination="mAr-RI-LjC" kind="relationship" relationship="viewControllers" id="jDl-QY-TpN"/>
                         <segue destination="BXl-kP-gPi" kind="relationship" relationship="viewControllers" id="0fm-4A-tfA"/>
-                        <segue destination="riL-C7-l9O" kind="relationship" relationship="viewControllers" id="8tz-2L-is0"/>
+                        <segue destination="SPK-bc-Kgr" kind="relationship" relationship="viewControllers" id="meo-Nk-6AI"/>
                         <segue destination="4mT-zO-Uvb" kind="relationship" relationship="viewControllers" id="4P8-q1-YCa"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RXX-Rs-LKh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2726.0869565217395" y="597.99107142857144"/>
+            <point key="canvasLocation" x="2649" y="587"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Gkp-hh-bvJ">
             <objects>
-                <viewController storyboardIdentifier="OTPViewController" id="gPP-mH-O6I" customClass="OTPViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OTPVC" id="gPP-mH-O6I" customClass="OTPViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A3F-Ug-1AV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AvT-va-4Zw">
-                                <rect key="frame" x="20" y="742" width="374" height="50"/>
+                                <rect key="frame" x="20" y="547" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.077041961249999999" green="0.45249569420000002" blue="0.54903507230000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="4pr-3o-GMf"/>
                                     <constraint firstAttribute="height" constant="50" id="Yxl-wa-rtA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                                <state key="normal" title="LOG INTO YOUR ACCOUNT">
+                                <state key="normal" title="NEXT">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="LogIntoMyAccount:" destination="gPP-mH-O6I" eventType="touchUpInside" id="heM-x9-Cws"/>
+                                </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bUC-Xa-1gW" customClass="HoshiTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="50" y="602" width="32" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="qth-Nl-kXn"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
-                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FuQ-fx-CAS" customClass="HoshiTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="103" y="602" width="32" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="jCC-ck-OlF"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="wpJ-rR-GAt"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
-                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l7n-hP-d6N" customClass="HoshiTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="156" y="602" width="32" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="0Qx-Sj-I4C"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="18m-Bu-FSi"/>
-                                    <constraint firstAttribute="height" constant="50" id="OcL-ig-omH"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
-                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ivf-o1-7zy" customClass="HoshiTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="207" y="602" width="32" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="T3E-5a-Krs"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="g7q-1E-bgd"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="z0o-68-1lm"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
-                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you for registering your account. Please enter the confirmation you just received via SMS" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCe-bD-NK5">
-                                <rect key="frame" x="10" y="481" width="394" height="41"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="fXE-2B-wBR">
-                                <rect key="frame" x="80" y="261" width="254" height="120"/>
+                                <rect key="frame" x="80" y="66" width="215" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="SDx-C8-u43"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="120" id="rJL-Wq-6BZ"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter the confirmation you just received via SMS." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l0n-xN-vNC">
+                                <rect key="frame" x="20" y="191" width="335" height="86"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="n9A-br-vo8">
+                                <rect key="frame" x="20" y="297" width="335" height="50"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k94-yd-J21" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="0.0" y="0.0" width="76.5" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="oTT-mR-77K"/>
+                                        </constraints>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                <color key="value" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pFH-c7-ksk" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="86.5" y="0.0" width="76" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="yAW-tl-5Xs"/>
+                                        </constraints>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                <color key="value" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KjV-WK-78U" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="172.5" y="0.0" width="76.5" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="TnY-oR-f1e"/>
+                                        </constraints>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                <color key="value" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="px8-uw-CkG" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="259" y="0.0" width="76" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="5HO-is-xRi"/>
+                                        </constraints>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                <color key="value" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKW-Ss-rvD">
+                                <rect key="frame" x="20" y="357" width="335" height="28"/>
+                                <state key="normal" title="Resend OTP">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="resendOTPbtn:" destination="gPP-mH-O6I" eventType="touchUpInside" id="qXP-aY-6gI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Td-UA-Bbu">
+                                <rect key="frame" x="20" y="20" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="gEn-tc-1hT"/>
+                                    <constraint firstAttribute="height" constant="35" id="nyT-Jm-lJH"/>
+                                </constraints>
+                                <state key="normal" image="black back icon-1"/>
+                                <connections>
+                                    <action selector="backBtn:" destination="gPP-mH-O6I" eventType="touchUpInside" id="XXH-k1-8p1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="AvT-va-4Zw" firstAttribute="top" secondItem="sCe-bD-NK5" secondAttribute="bottom" constant="220" id="2ug-6G-NNG"/>
-                            <constraint firstItem="AvT-va-4Zw" firstAttribute="top" secondItem="l7n-hP-d6N" secondAttribute="bottom" constant="90" id="6zu-6I-ZiY"/>
-                            <constraint firstItem="AvT-va-4Zw" firstAttribute="top" secondItem="FuQ-fx-CAS" secondAttribute="bottom" constant="90" id="8sz-nd-k1u"/>
+                            <constraint firstItem="fXE-2B-wBR" firstAttribute="top" secondItem="JOG-x8-BvQ" secondAttribute="top" constant="66" id="1ds-Qr-YDn"/>
+                            <constraint firstItem="YKW-Ss-rvD" firstAttribute="leading" secondItem="JOG-x8-BvQ" secondAttribute="leading" constant="20" id="8ED-ym-5js"/>
+                            <constraint firstItem="l0n-xN-vNC" firstAttribute="leading" secondItem="JOG-x8-BvQ" secondAttribute="leading" constant="20" id="8Ia-3I-Ctz"/>
+                            <constraint firstItem="n9A-br-vo8" firstAttribute="leading" secondItem="JOG-x8-BvQ" secondAttribute="leading" constant="20" id="9bI-Fg-TAG"/>
                             <constraint firstItem="fXE-2B-wBR" firstAttribute="leading" secondItem="A3F-Ug-1AV" secondAttribute="leading" constant="80" id="Co0-zb-Gfb"/>
-                            <constraint firstAttribute="trailing" secondItem="sCe-bD-NK5" secondAttribute="trailing" constant="10" id="G5Z-KO-ApA"/>
-                            <constraint firstItem="ivf-o1-7zy" firstAttribute="leading" secondItem="l7n-hP-d6N" secondAttribute="trailing" constant="19" id="Gkx-zB-IBm"/>
-                            <constraint firstItem="FuQ-fx-CAS" firstAttribute="leading" secondItem="bUC-Xa-1gW" secondAttribute="trailing" constant="21" id="HDC-bF-bbf"/>
+                            <constraint firstItem="3Td-UA-Bbu" firstAttribute="leading" secondItem="JOG-x8-BvQ" secondAttribute="leading" constant="20" id="DN7-wu-uqd"/>
+                            <constraint firstItem="YKW-Ss-rvD" firstAttribute="top" secondItem="n9A-br-vo8" secondAttribute="bottom" constant="10" id="QNu-2D-Rpg"/>
                             <constraint firstAttribute="trailing" secondItem="fXE-2B-wBR" secondAttribute="trailing" constant="80" id="RCc-Ac-1SK"/>
-                            <constraint firstItem="AvT-va-4Zw" firstAttribute="top" secondItem="bUC-Xa-1gW" secondAttribute="bottom" constant="90" id="T1P-wp-bH4"/>
-                            <constraint firstItem="bUC-Xa-1gW" firstAttribute="leading" secondItem="A3F-Ug-1AV" secondAttribute="leading" constant="50" id="WH2-Mn-l2b"/>
                             <constraint firstItem="AvT-va-4Zw" firstAttribute="leading" secondItem="A3F-Ug-1AV" secondAttribute="leading" constant="20" id="Wg3-yQ-X2j"/>
-                            <constraint firstItem="l7n-hP-d6N" firstAttribute="leading" secondItem="FuQ-fx-CAS" secondAttribute="trailing" constant="21" id="ZVh-rA-dH0"/>
+                            <constraint firstItem="l0n-xN-vNC" firstAttribute="top" secondItem="fXE-2B-wBR" secondAttribute="bottom" constant="5" id="Yp0-4X-tPF"/>
                             <constraint firstItem="JOG-x8-BvQ" firstAttribute="bottom" secondItem="AvT-va-4Zw" secondAttribute="bottom" constant="70" id="ZYN-ca-Lie"/>
+                            <constraint firstItem="n9A-br-vo8" firstAttribute="top" secondItem="l0n-xN-vNC" secondAttribute="bottom" constant="20" id="amW-yC-EbO"/>
+                            <constraint firstAttribute="trailing" secondItem="l0n-xN-vNC" secondAttribute="trailing" constant="20" id="ems-Qe-RKv"/>
                             <constraint firstAttribute="trailing" secondItem="AvT-va-4Zw" secondAttribute="trailing" constant="20" id="fga-RQ-sfZ"/>
-                            <constraint firstItem="AvT-va-4Zw" firstAttribute="top" secondItem="ivf-o1-7zy" secondAttribute="bottom" constant="90" id="hfE-U2-zCL"/>
-                            <constraint firstItem="sCe-bD-NK5" firstAttribute="leading" secondItem="A3F-Ug-1AV" secondAttribute="leading" constant="10" id="m9t-za-r9l"/>
-                            <constraint firstItem="sCe-bD-NK5" firstAttribute="top" secondItem="fXE-2B-wBR" secondAttribute="bottom" constant="100" id="rTJ-zd-hZC"/>
+                            <constraint firstItem="JOG-x8-BvQ" firstAttribute="trailing" secondItem="YKW-Ss-rvD" secondAttribute="trailing" constant="20" id="gfH-vP-fTV"/>
+                            <constraint firstItem="AvT-va-4Zw" firstAttribute="top" secondItem="n9A-br-vo8" secondAttribute="bottom" constant="200" id="l28-UU-dmH"/>
+                            <constraint firstItem="AvT-va-4Zw" firstAttribute="top" secondItem="YKW-Ss-rvD" secondAttribute="bottom" constant="162" id="mDB-YZ-Yp5"/>
+                            <constraint firstItem="JOG-x8-BvQ" firstAttribute="trailing" secondItem="n9A-br-vo8" secondAttribute="trailing" constant="20" id="pvH-1s-o9R"/>
+                            <constraint firstItem="3Td-UA-Bbu" firstAttribute="top" secondItem="JOG-x8-BvQ" secondAttribute="top" constant="20" id="w51-FA-eIT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JOG-x8-BvQ"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Suo-31-QPR"/>
                     <connections>
-                        <outlet property="FirstDigitOTPTxt" destination="bUC-Xa-1gW" id="h44-cj-7Dc"/>
-                        <outlet property="FourthDigitOTPTxt" destination="ivf-o1-7zy" id="CxI-4J-YxR"/>
-                        <outlet property="SecondDigitOTPTxt" destination="FuQ-fx-CAS" id="0Mg-mP-Vxv"/>
-                        <outlet property="ThirdDigitOTPTxt" destination="l7n-hP-d6N" id="GGB-o9-FpB"/>
+                        <outlet property="FirstOTPDigitTtxt" destination="k94-yd-J21" id="qdq-zs-i54"/>
+                        <outlet property="FourthOTPDigitTtxt" destination="px8-uw-CkG" id="i1y-Xj-KJe"/>
+                        <outlet property="SecondOTPDigitTtxt" destination="pFH-c7-ksk" id="CKB-Gh-qCI"/>
+                        <outlet property="ThirdOTPDigitTtxt" destination="KjV-WK-78U" id="SQa-nc-6ij"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oki-tp-bKu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-501" y="-386"/>
+            <point key="canvasLocation" x="-501.60000000000002" y="-386.35682158920542"/>
         </scene>
         <!--Set Up Account View Controller-->
         <scene sceneID="yDj-P4-a0Q">
             <objects>
-                <viewController storyboardIdentifier="SetUpAccountViewController" id="6Xi-m8-tNt" customClass="SetUpAccountViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SetUpAccountVC" id="6Xi-m8-tNt" customClass="SetUpAccountViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tY0-Cy-Fbi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfa-mT-Mc2">
-                                <rect key="frame" x="20" y="712" width="374" height="50"/>
+                                <rect key="frame" x="20" y="517" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.077041961249999999" green="0.45249569420000002" blue="0.54903507230000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="H7r-8B-dDj"/>
                                     <constraint firstAttribute="height" constant="50" id="NWx-m4-NfH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                                <state key="normal" title="SET UP MY ACCOUNT">
+                                <state key="normal" title="LOG INTO YOUR ACCOUNT">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="LoginAccountBtn:" destination="6Xi-m8-tNt" eventType="touchUpInside" id="3n6-UL-irq"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Water Delivery" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kbs-cL-2KE">
-                                <rect key="frame" x="30" y="479" width="151" height="26.5"/>
+                                <rect key="frame" x="30" y="284" width="151" height="26.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made Easy" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z2A-zl-s61">
-                                <rect key="frame" x="30" y="505.5" width="111.5" height="26.5"/>
+                                <rect key="frame" x="30" y="310.5" width="111.5" height="26.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME TO CHISIPITI WATER" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iig-yY-ZfP">
-                                <rect key="frame" x="31" y="259" width="352" height="190"/>
+                                <rect key="frame" x="31" y="1" width="313" height="253"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="53"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1042,15 +1118,17 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Z2A-zl-s61" firstAttribute="leading" secondItem="J7Q-Rl-CZV" secondAttribute="leading" constant="30" id="3Ja-RN-EVh"/>
+                            <constraint firstItem="Z2A-zl-s61" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="J7Q-Rl-CZV" secondAttribute="leading" id="3Ja-RN-EVh"/>
                             <constraint firstAttribute="trailing" secondItem="vfa-mT-Mc2" secondAttribute="trailing" constant="20" id="59m-RO-GMf"/>
                             <constraint firstItem="J7Q-Rl-CZV" firstAttribute="bottom" secondItem="vfa-mT-Mc2" secondAttribute="bottom" constant="100" id="6Pu-fu-9fv"/>
                             <constraint firstItem="vfa-mT-Mc2" firstAttribute="top" secondItem="Z2A-zl-s61" secondAttribute="bottom" constant="180" id="HfF-B2-TJE"/>
                             <constraint firstItem="iig-yY-ZfP" firstAttribute="leading" secondItem="J7Q-Rl-CZV" secondAttribute="leading" constant="31" id="Lq1-zn-Vj4"/>
                             <constraint firstItem="J7Q-Rl-CZV" firstAttribute="trailing" secondItem="iig-yY-ZfP" secondAttribute="trailing" constant="31" id="SDT-5A-prl"/>
-                            <constraint firstItem="Kbs-cL-2KE" firstAttribute="leading" secondItem="tY0-Cy-Fbi" secondAttribute="leading" constant="30" id="YLN-VI-Nbp"/>
+                            <constraint firstItem="Kbs-cL-2KE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="tY0-Cy-Fbi" secondAttribute="leading" constant="20" symbolic="YES" id="YLN-VI-Nbp"/>
+                            <constraint firstItem="J7Q-Rl-CZV" firstAttribute="trailing" secondItem="Kbs-cL-2KE" secondAttribute="trailing" constant="194" id="f5Y-4X-mBp"/>
                             <constraint firstItem="Z2A-zl-s61" firstAttribute="top" secondItem="Kbs-cL-2KE" secondAttribute="bottom" id="hrb-Tm-BEZ"/>
                             <constraint firstItem="vfa-mT-Mc2" firstAttribute="leading" secondItem="tY0-Cy-Fbi" secondAttribute="leading" constant="20" id="jdC-0o-Nkm"/>
+                            <constraint firstItem="J7Q-Rl-CZV" firstAttribute="trailing" secondItem="Z2A-zl-s61" secondAttribute="trailing" constant="233.5" id="oRq-YZ-IuJ"/>
                             <constraint firstItem="Kbs-cL-2KE" firstAttribute="top" secondItem="iig-yY-ZfP" secondAttribute="bottom" constant="30" id="yGD-MI-nCm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="J7Q-Rl-CZV"/>
@@ -1065,11 +1143,11 @@
             <objects>
                 <viewController storyboardIdentifier="ConfirmDetailsViewController" id="gaP-sc-mrV" customClass="ConfirmDetailsViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iSC-gS-Gjj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CC6-xA-udO">
-                                <rect key="frame" x="20" y="742" width="374" height="50"/>
+                                <rect key="frame" x="20" y="547" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.077041961249999999" green="0.45249569420000002" blue="0.54903507230000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="0ne-n8-uTj"/>
@@ -1082,7 +1160,7 @@
                                 </state>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Pin" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O45-jE-99e" customClass="HoshiTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="20" y="452" width="374" height="50"/>
+                                <rect key="frame" x="20" y="257" width="335" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="93A-Yw-LoI"/>
                                     <constraint firstAttribute="height" constant="50" id="RZs-2e-zfS"/>
@@ -1106,7 +1184,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Address(Harare Only)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sVy-m0-C9P" customClass="HoshiTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="20" y="542" width="374" height="50"/>
+                                <rect key="frame" x="20" y="347" width="335" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Nxl-px-fAa"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="wzD-fe-JeU"/>
@@ -1129,7 +1207,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Full Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aVW-eI-kII" customClass="HoshiTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="20" y="362" width="374" height="50"/>
+                                <rect key="frame" x="20" y="167" width="335" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="FdW-MG-Hph"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="RyD-B0-dDj"/>
@@ -1153,7 +1231,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm your details. These will be saved to make all your deliveries." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jff-8d-r6v">
-                                <rect key="frame" x="20" y="241" width="374" height="41"/>
+                                <rect key="frame" x="20" y="46" width="335" height="41"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1193,7 +1271,7 @@
                     <tabBarItem key="tabBarItem" title="Order Water" image="shopping_cart" id="2pV-4g-bTn"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="qzl-rP-fBY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1212,7 +1290,7 @@
                     <tabBarItem key="tabBarItem" title="History" image="doc.richtext" catalog="system" id="zox-xD-CPi"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="bVZ-vx-3VJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="108"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1229,30 +1307,6 @@
             </objects>
             <point key="canvasLocation" x="1262" y="1338"/>
         </scene>
-        <!--Track Order-->
-        <scene sceneID="dAG-DB-Zxi">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="riL-C7-l9O" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Track Order" image="delivery" id="fh5-FO-BjM"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="bcL-Zh-r8J">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <textAttributes key="largeTitleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="9vS-C2-V0X" kind="relationship" relationship="rootViewController" id="u1e-4C-cgO"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8tA-kE-ekf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3923.188405797102" y="597.99107142857144"/>
-        </scene>
         <!--Profiie-->
         <scene sceneID="ihv-DP-Gra">
             <objects>
@@ -1260,7 +1314,7 @@
                     <tabBarItem key="tabBarItem" title="Profiie" image="person.fill" catalog="system" id="deo-kP-MnX"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="pCz-wX-4C4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="108"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.052127406000000001" green="0.47841894629999998" blue="0.74905151130000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1282,60 +1336,130 @@
             <objects>
                 <viewController storyboardIdentifier="EditProfileVC" modalPresentationStyle="fullScreen" id="VA3-nA-Vs4" customClass="EditProfileViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="39A-xd-sHB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="FUG-dV-fGs">
-                                <rect key="frame" x="20" y="50" width="374" height="564"/>
+                                <rect key="frame" x="20" y="50" width="335" height="564"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PERSONAL DETAILS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAb-VW-uhc">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="24"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PERSONAL DETAILS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAb-VW-uhc">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="24"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Full Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dvo-t7-khE" customClass="HoshiTextField" customModule="Chisipiti_Water" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="64" width="374" height="50"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Full Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dvo-t7-khE" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="0.0" y="64" width="335" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="CN8-2q-VCz"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" textContentType="name"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                <color key="value" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mobile Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hPx-Gh-TnW" customClass="HoshiTextField" customModule="Chisipiti_Water" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="154" width="374" height="50"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mobile Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hPx-Gh-TnW" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="0.0" y="154" width="335" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="bJ8-R5-S3z"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" textContentType="tel"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                <color key="value" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Home Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dun-LP-yzo" customClass="HoshiTextField" customModule="Chisipiti_Water" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="244" width="374" height="50"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Home Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dun-LP-yzo" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="0.0" y="244" width="335" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="ELz-1s-Bgi"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" textContentType="address-line1"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                <color key="value" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New PIN" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oy0-Cq-8f4" customClass="HoshiTextField" customModule="Chisipiti_Water" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="334" width="374" height="50"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="New PIN" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oy0-Cq-8f4" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="0.0" y="334" width="335" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="hUN-HP-kI2"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                <color key="value" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm New PIN" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9M9-Uv-naN" customClass="HoshiTextField" customModule="Chisipiti_Water" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="424" width="374" height="50"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm New PIN" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9M9-Uv-naN" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                        <rect key="frame" x="0.0" y="424" width="335" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="hfd-eJ-kId"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                                <color key="value" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                                <color key="value" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4lX-Pw-EJh" customClass="CustomButtton" customModule="Chisipiti_Water" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="514" width="374" height="50"/>
+                                        <rect key="frame" x="0.0" y="514" width="335" height="50"/>
                                         <color key="backgroundColor" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="MOu-T8-6KO"/>
@@ -1351,10 +1475,10 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lFo-xL-1Dr">
-                                <rect key="frame" x="20" y="20" width="30" height="30"/>
+                                <rect key="frame" x="20" y="10" width="35" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="LOP-hb-mKb"/>
-                                    <constraint firstAttribute="height" constant="30" id="TKd-Ky-ndR"/>
+                                    <constraint firstAttribute="height" constant="35" id="HqP-wL-Tb9"/>
+                                    <constraint firstAttribute="width" constant="35" id="T2C-UB-pcg"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="black back icon"/>
                                 <connections>
@@ -1364,9 +1488,9 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="lFo-xL-1Dr" firstAttribute="top" secondItem="lPs-di-Cv5" secondAttribute="top" constant="20" id="FdW-vZ-X8s"/>
+                            <constraint firstItem="lFo-xL-1Dr" firstAttribute="top" secondItem="lPs-di-Cv5" secondAttribute="top" constant="10" id="eY1-tt-JUd"/>
+                            <constraint firstItem="lFo-xL-1Dr" firstAttribute="leading" secondItem="lPs-di-Cv5" secondAttribute="leading" constant="20" id="fX1-jR-u8W"/>
                             <constraint firstItem="FUG-dV-fGs" firstAttribute="top" secondItem="lPs-di-Cv5" secondAttribute="top" constant="50" id="gwC-YG-pVU"/>
-                            <constraint firstItem="lFo-xL-1Dr" firstAttribute="leading" secondItem="lPs-di-Cv5" secondAttribute="leading" constant="20" id="olG-zX-RYk"/>
                             <constraint firstItem="lPs-di-Cv5" firstAttribute="trailing" secondItem="FUG-dV-fGs" secondAttribute="trailing" constant="20" id="qxc-je-Uex"/>
                             <constraint firstItem="FUG-dV-fGs" firstAttribute="leading" secondItem="lPs-di-Cv5" secondAttribute="leading" constant="20" id="ymJ-PD-Udv"/>
                         </constraints>
@@ -1391,7 +1515,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XKE-9U-zVD" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="MMO-H5-eE1">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1413,13 +1537,367 @@
             </objects>
             <point key="canvasLocation" x="-1849" y="598"/>
         </scene>
+        <!--Track Order-->
+        <scene sceneID="Z8R-Ll-Lro">
+            <objects>
+                <viewController storyboardIdentifier="TrackVC" modalPresentationStyle="fullScreen" id="Icr-OW-nuC" customClass="TrackViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wxy-AW-kPe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You don't have orders yet." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qEG-h5-BcI">
+                                <rect key="frame" x="54.5" y="298.5" width="266" height="50"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Pd7-6X-FY4">
+                                <rect key="frame" x="0.0" y="108" width="375" height="539"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="OrderTrackingCell" rowHeight="80" id="Okf-Bf-IwD" customClass="OrderTrackingTableViewCell" customModule="Chisipiti_Water" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Okf-Bf-IwD" id="Qi9-Me-zpu">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MHh-l8-Feg" customClass="CustomView" customModule="Chisipiti_Water" customModuleProvider="target">
+                                                    <rect key="frame" x="2" y="2" width="371" height="76"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="7WY-ho-iz6">
+                                                            <rect key="frame" x="6" y="2" width="365" height="72.5"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image-2" translatesAutoresizingMaskIntoConstraints="NO" id="zCJ-1g-W9z">
+                                                                    <rect key="frame" x="0.0" y="8" width="56.5" height="56.5"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="56.5" id="Mji-lg-NFN"/>
+                                                                        <constraint firstAttribute="height" constant="56.5" id="fVD-aG-LT2"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="hBX-qj-7Ws">
+                                                                    <rect key="frame" x="71.5" y="7" width="293.5" height="58.5"/>
+                                                                    <subviews>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Delivered - 5000 Liters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zbf-aW-lMd">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="234.5" height="20.5"/>
+                                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                                            <nil key="textColor"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23 October 2020, 1649" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKQ-Ey-vJm">
+                                                                            <rect key="frame" x="0.0" y="21.5" width="161" height="18"/>
+                                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                                            <nil key="textColor"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="467 King George, Avondale, Harare" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dt7-FO-KtS">
+                                                                            <rect key="frame" x="0.0" y="40.5" width="241" height="18"/>
+                                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                                            <nil key="textColor"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
+                                                                </stackView>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstItem="7WY-ho-iz6" firstAttribute="leading" secondItem="MHh-l8-Feg" secondAttribute="leading" constant="6" id="5gT-kI-FL6"/>
+                                                        <constraint firstAttribute="trailing" secondItem="7WY-ho-iz6" secondAttribute="trailing" id="TYg-ec-7ai"/>
+                                                        <constraint firstItem="7WY-ho-iz6" firstAttribute="top" secondItem="MHh-l8-Feg" secondAttribute="top" constant="2" id="e76-r6-Hs6"/>
+                                                        <constraint firstAttribute="bottom" secondItem="7WY-ho-iz6" secondAttribute="bottom" constant="1.5" id="iu8-Oa-cib"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="MHh-l8-Feg" firstAttribute="top" secondItem="Qi9-Me-zpu" secondAttribute="top" constant="2" id="99f-MB-Her"/>
+                                                <constraint firstItem="MHh-l8-Feg" firstAttribute="leading" secondItem="Qi9-Me-zpu" secondAttribute="leading" constant="2" id="Jm1-KI-IN7"/>
+                                                <constraint firstAttribute="bottom" secondItem="MHh-l8-Feg" secondAttribute="bottom" constant="2" id="T5J-Ur-1O4"/>
+                                                <constraint firstAttribute="trailing" secondItem="MHh-l8-Feg" secondAttribute="trailing" constant="2" id="tFv-yz-IqL"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="AddressLbl" destination="dt7-FO-KtS" id="2ur-7A-wyJ"/>
+                                            <outlet property="OrderDateLbl" destination="NKQ-Ey-vJm" id="mHC-KO-gD6"/>
+                                            <outlet property="OrderStatusImage" destination="zCJ-1g-W9z" id="6s5-55-gWF"/>
+                                            <outlet property="OrderStatusLbl" destination="Zbf-aW-lMd" id="pal-SK-zXd"/>
+                                            <outlet property="backView" destination="MHh-l8-Feg" id="GNn-B1-1Rc"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Pd7-6X-FY4" firstAttribute="top" secondItem="dJ1-8x-8ep" secondAttribute="top" id="8HC-3g-Dso"/>
+                            <constraint firstItem="qEG-h5-BcI" firstAttribute="top" secondItem="dJ1-8x-8ep" secondAttribute="top" constant="190.5" id="IFr-I8-UJZ"/>
+                            <constraint firstItem="qEG-h5-BcI" firstAttribute="leading" secondItem="dJ1-8x-8ep" secondAttribute="leading" constant="54.5" id="Mjo-O0-Ua5"/>
+                            <constraint firstItem="dJ1-8x-8ep" firstAttribute="bottom" secondItem="qEG-h5-BcI" secondAttribute="bottom" constant="249.5" id="ZJn-yv-XQ0"/>
+                            <constraint firstAttribute="trailing" secondItem="Pd7-6X-FY4" secondAttribute="trailing" id="erb-ff-Yb4"/>
+                            <constraint firstItem="dJ1-8x-8ep" firstAttribute="trailing" secondItem="qEG-h5-BcI" secondAttribute="trailing" constant="54.5" id="iHs-Dt-qPY"/>
+                            <constraint firstAttribute="bottom" secondItem="Pd7-6X-FY4" secondAttribute="bottom" id="k8f-oA-UDB"/>
+                            <constraint firstItem="Pd7-6X-FY4" firstAttribute="leading" secondItem="dJ1-8x-8ep" secondAttribute="leading" id="pvm-Kx-fOX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dJ1-8x-8ep"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Track Order" id="3UO-Z4-au2"/>
+                    <connections>
+                        <outlet property="OrderTrackingTableView" destination="Pd7-6X-FY4" id="nhg-yD-3ke"/>
+                        <outlet property="noOrdersLbl" destination="qEG-h5-BcI" id="TaC-ow-jfi"/>
+                        <segue destination="p7m-cH-zg0" kind="show" identifier="toTrackOrderView" id="a0X-zq-Ot5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4P6-dM-XH0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4485.6000000000004" y="586.95652173913049"/>
+        </scene>
+        <!--Track Order Data View Controller-->
+        <scene sceneID="vwg-pI-0sE">
+            <objects>
+                <viewController storyboardIdentifier="TrackOrderDataViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="p7m-cH-zg0" customClass="TrackOrderDataViewController" customModule="Chisipiti_Water" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mcy-Ys-YIx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehp-PI-iiR">
+                                <rect key="frame" x="15" y="123" width="99" height="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="H12323HG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWf-iU-fZT">
+                                <rect key="frame" x="15" y="145" width="88" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KjS-mi-lJr" customClass="CustomView" customModule="Chisipiti_Water" customModuleProvider="target">
+                                <rect key="frame" x="10" y="197" width="355" height="62"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="lOV-Ea-SME">
+                                        <rect key="frame" x="6" y="2" width="349" height="58.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image-2" translatesAutoresizingMaskIntoConstraints="NO" id="kMs-sp-K1q">
+                                                <rect key="frame" x="0.0" y="1" width="56.5" height="56.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="56.5" id="Zxe-Ya-i6i"/>
+                                                    <constraint firstAttribute="width" constant="56.5" id="aIP-xL-Wml"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="nxJ-69-nzZ">
+                                                <rect key="frame" x="71.5" y="0.0" width="277.5" height="58.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Accepted - 5000 Liters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJi-gU-t66">
+                                                        <rect key="frame" x="0.0" y="0.0" width="235.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23 October 2020, 1649" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HsG-MB-8q4">
+                                                        <rect key="frame" x="0.0" y="21.5" width="161" height="18"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="467 King George, Avondale, Harare" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="re1-oG-1AG">
+                                                        <rect key="frame" x="0.0" y="40.5" width="241" height="18"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="lOV-Ea-SME" firstAttribute="top" secondItem="KjS-mi-lJr" secondAttribute="top" constant="2" id="0eA-sl-iUr"/>
+                                    <constraint firstItem="lOV-Ea-SME" firstAttribute="leading" secondItem="KjS-mi-lJr" secondAttribute="leading" constant="6" id="18m-tz-0AF"/>
+                                    <constraint firstAttribute="trailing" secondItem="lOV-Ea-SME" secondAttribute="trailing" id="k6X-W9-LRV"/>
+                                    <constraint firstAttribute="bottom" secondItem="lOV-Ea-SME" secondAttribute="bottom" constant="1.5" id="sZc-ms-lm5"/>
+                                </constraints>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kLB-Lw-bVC" customClass="CustomView" customModule="Chisipiti_Water" customModuleProvider="target">
+                                <rect key="frame" x="10" y="319" width="355" height="62"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Nuy-nX-cb8">
+                                        <rect key="frame" x="6" y="2" width="349" height="58.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image-2" translatesAutoresizingMaskIntoConstraints="NO" id="cWm-Qw-dEo">
+                                                <rect key="frame" x="0.0" y="1" width="56.5" height="56.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="56.5" id="Hnh-my-uHT"/>
+                                                    <constraint firstAttribute="width" constant="56.5" id="fZr-N1-8WD"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="6Uy-EI-iZb">
+                                                <rect key="frame" x="71.5" y="0.0" width="277.5" height="58.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Dispatched - 5000 Liters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jn1-MO-blV">
+                                                        <rect key="frame" x="0.0" y="0.0" width="250" height="20.5"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23 October 2020, 1649" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DFz-WQ-Dfc">
+                                                        <rect key="frame" x="0.0" y="21.5" width="161" height="18"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="467 King George, Avondale, Harare" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ctn-xj-bed">
+                                                        <rect key="frame" x="0.0" y="40.5" width="241" height="18"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Nuy-nX-cb8" secondAttribute="bottom" constant="1.5" id="fDf-gL-xHn"/>
+                                    <constraint firstItem="Nuy-nX-cb8" firstAttribute="top" secondItem="kLB-Lw-bVC" secondAttribute="top" constant="2" id="kHj-lF-eao"/>
+                                    <constraint firstItem="Nuy-nX-cb8" firstAttribute="leading" secondItem="kLB-Lw-bVC" secondAttribute="leading" constant="6" id="xni-ha-nQb"/>
+                                    <constraint firstAttribute="trailing" secondItem="Nuy-nX-cb8" secondAttribute="trailing" id="y1W-IY-AlW"/>
+                                </constraints>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lfQ-SE-kH8" customClass="CustomView" customModule="Chisipiti_Water" customModuleProvider="target">
+                                <rect key="frame" x="10" y="441" width="355" height="62"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="8GM-rf-LZc">
+                                        <rect key="frame" x="6" y="2" width="349" height="58.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image-2" translatesAutoresizingMaskIntoConstraints="NO" id="mYw-9q-3zh">
+                                                <rect key="frame" x="0.0" y="1" width="56.5" height="56.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="56.5" id="LuZ-Us-TpK"/>
+                                                    <constraint firstAttribute="width" constant="56.5" id="xq0-ma-ejb"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="pxY-qW-2HH">
+                                                <rect key="frame" x="71.5" y="0.0" width="277.5" height="58.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Delivered - 5000 Liters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOU-tO-7xr">
+                                                        <rect key="frame" x="0.0" y="0.0" width="234.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23 October 2020, 1649" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfG-U7-MlX">
+                                                        <rect key="frame" x="0.0" y="21.5" width="161" height="18"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="467 King George, Avondale, Harare" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SI1-AO-rYt">
+                                                        <rect key="frame" x="0.0" y="40.5" width="241" height="18"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="8GM-rf-LZc" secondAttribute="trailing" id="LJi-pd-nTF"/>
+                                    <constraint firstAttribute="bottom" secondItem="8GM-rf-LZc" secondAttribute="bottom" constant="1.5" id="h3A-Jy-ztF"/>
+                                    <constraint firstItem="8GM-rf-LZc" firstAttribute="top" secondItem="lfQ-SE-kH8" secondAttribute="top" constant="2" id="iLJ-aN-zdz"/>
+                                    <constraint firstItem="8GM-rf-LZc" firstAttribute="leading" secondItem="lfQ-SE-kH8" secondAttribute="leading" constant="6" id="jNe-YK-KD6"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="kLB-Lw-bVC" firstAttribute="leading" secondItem="PBk-a3-9XG" secondAttribute="leading" constant="10" id="1Bg-TT-wg9"/>
+                            <constraint firstItem="PBk-a3-9XG" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ehp-PI-iiR" secondAttribute="trailing" symbolic="YES" id="5TW-XM-bN3"/>
+                            <constraint firstAttribute="trailing" secondItem="kLB-Lw-bVC" secondAttribute="trailing" constant="10" id="CtI-jp-IKM"/>
+                            <constraint firstItem="hWf-iU-fZT" firstAttribute="top" secondItem="ehp-PI-iiR" secondAttribute="bottom" constant="5" id="Pvn-7a-87d"/>
+                            <constraint firstItem="kLB-Lw-bVC" firstAttribute="top" secondItem="KjS-mi-lJr" secondAttribute="bottom" constant="60" id="YMu-CE-07N"/>
+                            <constraint firstItem="KjS-mi-lJr" firstAttribute="leading" secondItem="PBk-a3-9XG" secondAttribute="leading" constant="10" id="ZHN-OR-Mm8"/>
+                            <constraint firstItem="PBk-a3-9XG" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hWf-iU-fZT" secondAttribute="trailing" symbolic="YES" id="aNU-ZG-0hX"/>
+                            <constraint firstItem="KjS-mi-lJr" firstAttribute="top" secondItem="hWf-iU-fZT" secondAttribute="bottom" constant="31.5" id="dYO-mp-DPe"/>
+                            <constraint firstItem="ehp-PI-iiR" firstAttribute="leading" secondItem="PBk-a3-9XG" secondAttribute="leading" constant="15" id="hFG-qh-jzf"/>
+                            <constraint firstItem="KjS-mi-lJr" firstAttribute="trailing" secondItem="PBk-a3-9XG" secondAttribute="trailing" constant="-10" id="ivZ-v2-cHy"/>
+                            <constraint firstItem="lfQ-SE-kH8" firstAttribute="top" secondItem="kLB-Lw-bVC" secondAttribute="bottom" constant="60" id="jAU-LK-peS"/>
+                            <constraint firstItem="lfQ-SE-kH8" firstAttribute="leading" secondItem="PBk-a3-9XG" secondAttribute="leading" constant="10" id="lqG-k4-ya4"/>
+                            <constraint firstAttribute="trailing" secondItem="lfQ-SE-kH8" secondAttribute="trailing" constant="10" id="pqf-zd-e0W"/>
+                            <constraint firstItem="ehp-PI-iiR" firstAttribute="top" secondItem="PBk-a3-9XG" secondAttribute="top" constant="15" id="sDy-w3-Y79"/>
+                            <constraint firstItem="hWf-iU-fZT" firstAttribute="leading" secondItem="PBk-a3-9XG" secondAttribute="leading" constant="15" id="sgN-6J-qr3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PBk-a3-9XG"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="g8X-dW-nUL"/>
+                    <connections>
+                        <outlet property="orderAddressDelivered" destination="SI1-AO-rYt" id="Sbm-wo-Tvv"/>
+                        <outlet property="orderDate" destination="HsG-MB-8q4" id="AtZ-yj-Tag"/>
+                        <outlet property="orderDateDelivered" destination="GfG-U7-MlX" id="jsO-i0-AfB"/>
+                        <outlet property="orderDateDispatched" destination="DFz-WQ-Dfc" id="gIl-d9-RIM"/>
+                        <outlet property="orderDeliveryAddress" destination="re1-oG-1AG" id="siz-vI-yQE"/>
+                        <outlet property="orderDeliveryAddressDispatched" destination="ctn-xj-bed" id="tWy-cn-aEX"/>
+                        <outlet property="orderNumberLbl" destination="hWf-iU-fZT" id="i5j-t0-Ma4"/>
+                        <outlet property="orderStatus" destination="QJi-gU-t66" id="8Xy-zx-Q2T"/>
+                        <outlet property="orderStatusDelivered" destination="WOU-tO-7xr" id="Wch-bM-muW"/>
+                        <outlet property="orderStatusDispatched" destination="Jn1-MO-blV" id="11c-Ps-cdd"/>
+                        <outlet property="orderStatusImg" destination="kMs-sp-K1q" id="3js-kk-qAS"/>
+                        <outlet property="orderStatusImgDelivered" destination="mYw-9q-3zh" id="PUx-jI-VUJ"/>
+                        <outlet property="orderStatusImgDispatched" destination="cWm-Qw-dEo" id="uoU-xf-ERu"/>
+                        <outlet property="orderStatusView" destination="KjS-mi-lJr" id="4Rm-a0-SWB"/>
+                        <outlet property="orderStatusViewDelivered" destination="lfQ-SE-kH8" id="Iqp-OB-ZyH"/>
+                        <outlet property="orderStatusViewDispatched" destination="kLB-Lw-bVC" id="SPO-KV-LUg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IWz-T4-sAe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5441" y="587"/>
+        </scene>
+        <!--Track Order-->
+        <scene sceneID="C3h-MC-Ofl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SPK-bc-Kgr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Track Order" image="delivery" id="PQW-cK-43A"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="k1J-BV-IC5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="108"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" red="0.05264856666" green="0.47826933859999998" blue="0.75297349690000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Icr-OW-nuC" kind="relationship" relationship="rootViewController" id="hhx-Yq-t8J"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VUX-YU-uxb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3570" y="587"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="KDA-71-6g2"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="73" height="78"/>
         <image name="Image-2" width="56.5" height="56.5"/>
         <image name="black back icon" width="48" height="48"/>
+        <image name="black back icon-1" width="48" height="48"/>
         <image name="delivery" width="30" height="30"/>
         <image name="doc.richtext" catalog="system" width="115" height="128"/>
+        <image name="icons8-chat-96" width="48" height="48"/>
         <image name="icons8-checked-150" width="75" height="75"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="shopping_cart" width="30" height="30"/>

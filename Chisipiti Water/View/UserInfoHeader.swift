@@ -17,7 +17,7 @@ class UserInfoHeader: UIView {
         iv.contentMode = .scaleAspectFill
         iv.clipsToBounds = true
         iv.translatesAutoresizingMaskIntoConstraints = false
-        iv.image = UIImage(named: "ironman")
+        iv.image = UIImage(named: "icons8-male-user-96")
         return iv
     }()
     

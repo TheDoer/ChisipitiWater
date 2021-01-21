@@ -122,7 +122,7 @@ class LoginViewController: UIViewController {
                         
                     else  {
                     
-                    let alert = UIAlertController(title: "Oops!", message: "Invalid Credentials", preferredStyle: .alert)
+                    let alert = UIAlertController(title: "Oops!", message: "Either your mobile number or passwoord is incorrect", preferredStyle: .alert)
                                            
                      let closeAction = UIAlertAction(title: "Close", style: UIAlertAction.Style.default, handler: {action in
                                             
@@ -136,7 +136,7 @@ class LoginViewController: UIViewController {
                 case let .failure(error):
                 
                  print(error)
-                 let alert = UIAlertController(title: "Oh Snap!", message: "Cannot Connect to Server", preferredStyle: .alert)
+                 let alert = UIAlertController(title: "Oh Snap!", message: "Check Your Internet Connection and Try Again", preferredStyle: .alert)
                             
                             let closeAction = UIAlertAction(title: "Try Again", style: UIAlertAction.Style.cancel, handler: {action in
                                 print("Close")

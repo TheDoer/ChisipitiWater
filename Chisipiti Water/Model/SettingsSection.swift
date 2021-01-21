@@ -23,16 +23,14 @@ enum SettingsSection: Int,CaseIterable, CustomStringConvertible {
 }
 
 enum AuthOptions: Int, CaseIterable, SectionType {
-    case EditProfile
+    case PersonalInformation
     case Logout
-    case PinReset
     
     var containsSwitch: Bool { return false }
     
     var description: String{
         switch self {
-        case .EditProfile: return "Edit Profile"
-        case .PinReset: return "PIN Reset"
+        case .PersonalInformation: return "Personal Information"
         case .Logout: return "Logout"
         }
     }
@@ -40,19 +38,19 @@ enum AuthOptions: Int, CaseIterable, SectionType {
 
 enum CommunicationsOptions: Int, CaseIterable, SectionType {
     case Notification
-    case ReportCrashes
+    //case ReportCrashes
 
     var containsSwitch: Bool {
         switch self {
         case .Notification: return false
-        case .ReportCrashes: return false
+        //case .ReportCrashes: return false
         }
     }
 
     var description: String {
         switch self {
         case .Notification: return "Customer Support"
-        case .ReportCrashes: return "Report Crashes and Bugs"
+        //case .ReportCrashes: return "Report Crashes and Bugs"
         }
     }
 }
