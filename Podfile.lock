@@ -1,5 +1,13 @@
 PODS:
   - Alamofire (4.9.1)
+  - AppCenter (4.1.0):
+    - AppCenter/Analytics (= 4.1.0)
+    - AppCenter/Crashes (= 4.1.0)
+  - AppCenter/Analytics (4.1.0):
+    - AppCenter/Core
+  - AppCenter/Core (4.1.0)
+  - AppCenter/Crashes (4.1.0):
+    - AppCenter/Core
   - IQKeyboardManagerSwift (6.5.5)
   - JWTDecode (2.4.1)
   - MBProgressHUD (1.2.0)
@@ -9,6 +17,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
+  - AppCenter
   - IQKeyboardManagerSwift
   - JWTDecode
   - MBProgressHUD (~> 1.2.0)
@@ -19,6 +28,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - AppCenter
     - IQKeyboardManagerSwift
     - JWTDecode
     - MBProgressHUD
@@ -28,6 +38,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AppCenter: 8832b158d17e54845c3b88a91076218f0b07174d
   IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
   JWTDecode: 4bd4da0cdf0f8154fd467fa48499f34ec057fb88
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
@@ -35,6 +46,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
 
-PODFILE CHECKSUM: c8818a8a10410c8d9d9c42270e0246c515730ebe
+PODFILE CHECKSUM: ca0edc472b2c53f10c8bfaa17f58e9ff2613205d
 
 COCOAPODS: 1.9.3

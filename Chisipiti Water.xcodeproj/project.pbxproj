@@ -254,6 +254,7 @@
 			buildConfigurationList = F1FF1EAE24BA700C00D3F451 /* Build configuration list for PBXNativeTarget "Chisipiti Water" */;
 			buildPhases = (
 				849687EEB95B439522A128F9 /* [CP] Check Pods Manifest.lock */,
+				7CE4FE5E1D550E052DB1CA45 /* [CP] Prepare Artifacts */,
 				F1FF1E9624BA700900D3F451 /* Sources */,
 				F1FF1E9724BA700900D3F451 /* Frameworks */,
 				F1FF1E9824BA700900D3F451 /* Resources */,
@@ -330,6 +331,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chisipiti Water/Pods-Chisipiti Water-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CE4FE5E1D550E052DB1CA45 /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chisipiti Water/Pods-Chisipiti Water-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chisipiti Water/Pods-Chisipiti Water-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chisipiti Water/Pods-Chisipiti Water-artifacts.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		849687EEB95B439522A128F9 /* [CP] Check Pods Manifest.lock */ = {
@@ -543,7 +561,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L328372XUN;
+				DEVELOPMENT_TEAM = QX2F47Q2UQ;
 				INFOPLIST_FILE = "Chisipiti Water/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -565,7 +583,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L328372XUN;
+				DEVELOPMENT_TEAM = QX2F47Q2UQ;
 				INFOPLIST_FILE = "Chisipiti Water/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
