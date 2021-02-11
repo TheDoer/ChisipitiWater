@@ -12,8 +12,8 @@ import Alamofire
 import SwiftyJSON
 import TextFieldEffects
 import MBProgressHUD
-import AppCenter
-import AppCenterCrashes
+//import AppCenter
+//import AppCenterCrashes
 
 class LoginViewController: UIViewController {
     
@@ -37,9 +37,9 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        AppCenter.start(withAppSecret: "8b114f1e-7aa2-4a5c-ab2e-24e43ed3a2f4", services:[
-          Crashes.self
-        ])
+//        AppCenter.start(withAppSecret: "8b114f1e-7aa2-4a5c-ab2e-24e43ed3a2f4", services:[
+//          Crashes.self
+//        ])
 
         // Do any additional setup after loading the view.
         setBackgroundOne()
